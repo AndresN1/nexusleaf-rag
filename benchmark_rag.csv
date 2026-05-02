@@ -1,0 +1,717 @@
+id,pregunta,tipo,respuesta_esperada
+Q-001,¿Cuál es el MRR mensual del cliente CLI-0312?,positiva,1518 EUR
+Q-002,¿Cuál es el puesto exacto del empleado con ID EMP-1309?,positiva,Especialista en Finanzas
+Q-003,"El 2023-12-01T08:00:00Z, ¿qué fuente de energía usaba el Nodo Alfa?",positiva,Geotermica
+Q-004,¿Qué tipo de aplicaciones usa Bamboo DB?,positiva,Aplicaciones de Generación Aumentada por Recuperación (RAG).
+Q-005,¿Cuál es la visión de NexusLeaf para 2030?,positiva,Convertirse en el estándar europeo de computación verde para 2030.
+Q-006,¿En qué departamento trabaja el empleado EMP-1132?,positiva,Operaciones Verdes
+Q-007,¿Qué nivel de acceso tiene el empleado con ID EMP-1839?,positiva,3
+Q-008,"El 2023-12-01T14:00:00Z, ¿cuántos kW consumía el Nodo Alfa?",positiva,480 kW
+Q-009,¿En qué fecha fue contratado el empleado con ID EMP-0079?,positiva,2022-09-26
+Q-010,¿Quién fundó Iberia Tech Ventures?,negativa,No hay información sobre el fondo de inversión más allá de que lideró la ronda semilla.
+Q-011,¿En qué fecha empezó la relación comercial con el cliente CLI-0204?,positiva,2023-02-26
+Q-012,¿Cuál es el número de teléfono de la sede de NexusLeaf?,negativa,No hay número de teléfono publicado en la documentación.
+Q-013,¿En qué departamento trabaja el empleado EMP-1648?,positiva,Soporte Técnico
+Q-014,¿Cuál es el sector de la entidad 'Global Data S.L.'?,positiva,Tecnología
+Q-015,¿Qué producto tiene contratado el cliente CLI-0225?,positiva,Verdant LLM + Bamboo DB
+Q-016,"El 2023-12-01T08:00:00Z, ¿cuántos kW consumía el Nodo Alfa?",positiva,450 kW
+Q-017,¿En qué departamento trabaja el empleado EMP-1584?,positiva,Soporte Técnico
+Q-018,¿Cuál es el presupuesto de marketing para 2024?,negativa,No hay datos presupuestarios de 2024 en el corpus (solo el balance de 2023).
+Q-019,¿En qué fecha fue contratado el empleado con ID EMP-0847?,positiva,2023-01-21
+Q-020,¿Cuál es el MRR mensual del cliente CLI-0301?,positiva,4282 EUR
+Q-021,¿En qué fecha empezó la relación comercial con el cliente CLI-0336?,positiva,2023-12-23
+Q-022,¿Cuál es el salario anual del empleado EMP-0481?,positiva,45214 EUR
+Q-023,"El 2023-12-02T02:00:00Z, ¿qué fuente de energía usaba el Nodo Beta?",positiva,Eolica
+Q-024,¿En qué fecha fue contratado el empleado con ID EMP-1015?,positiva,2023-07-07
+Q-025,¿Qué nivel de soporte le corresponde al cliente CLI-0126?,positiva,Dedicado (SLA 99.99%)
+Q-026,¿Qué nivel de soporte le corresponde al cliente CLI-0216?,positiva,Dedicado (SLA 99.99%)
+Q-027,¿Cuál es el puesto exacto del empleado con ID EMP-0779?,positiva,Especialista en Marketing
+Q-028,¿Cuál es el MRR mensual del cliente CLI-0163?,positiva,12716 EUR
+Q-029,¿De qué hackathon surgió NexusLeaf?,positiva,Un hackathon de sostenibilidad tecnológica.
+Q-030,¿Qué categoría tiene el gasto GST-006?,positiva,Infraestructura
+Q-031,¿Cuál es el MRR mensual del cliente CLI-0252?,positiva,12556 EUR
+Q-032,¿En qué fecha fue contratado el empleado con ID EMP-1429?,positiva,2023-01-31
+Q-033,¿Qué categoría tiene el gasto GST-009?,positiva,Infraestructura
+Q-034,¿En qué departamento trabaja Carmen Gutiérrez?,positiva,Marketing
+Q-035,¿Cuál es el puesto exacto del empleado con ID EMP-0872?,positiva,Arquitecto Cloud
+Q-036,¿Cuál es el puesto exacto del empleado con ID EMP-0393?,positiva,Ingeniero de Eficiencia Energética
+Q-037,¿Qué categoría tiene el gasto GST-008?,positiva,Legal
+Q-038,¿Qué producto tiene contratado el cliente CLI-0336?,positiva,Bamboo DB
+Q-039,¿Qué tipo de entidad es el cliente CLI-0052?,positiva,Organización Gubernamental
+Q-040,"El 2023-12-01T08:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Alfa?",positiva,98%
+Q-041,¿Qué tipo de entidad es el cliente CLI-0088?,positiva,Empresa
+Q-042,¿Qué producto tiene contratado el cliente CLI-0161?,positiva,Bamboo DB
+Q-043,¿A qué proveedor corresponde el gasto GST-004?,positiva,EcoCooling Systems
+Q-044,¿Cuál es el salario anual del empleado EMP-1764?,positiva,56468 EUR
+Q-045,¿En qué fecha fue contratado el empleado con ID EMP-0229?,positiva,2023-11-05
+Q-046,¿Cuándo se cerró el ejercicio fiscal del balance de 2023?,positiva,31 de Diciembre de 2023.
+Q-047,¿En qué fecha empezó la relación comercial con el cliente CLI-0060?,positiva,2023-06-12
+Q-048,¿Qué categoría tiene el gasto GST-002?,positiva,I+D
+Q-049,¿Qué nivel de soporte le corresponde al cliente CLI-0087?,positiva,Básico
+Q-050,¿En qué departamento trabaja el empleado EMP-0176?,positiva,Legal
+Q-051,¿Cuál es el MRR mensual del cliente CLI-0035?,positiva,5923 EUR
+Q-052,¿Cuál es la capitalización de mercado de Iberia Tech Ventures?,negativa,No hay información financiera sobre el fondo de inversión Iberia Tech Ventures en el corpus.
+Q-053,¿Cuál es el propósito principal del Nodo Gamma?,positiva,Respaldo redundante y almacenamiento en frío (Cold Storage).
+Q-054,¿Qué nivel de acceso tiene el empleado con ID EMP-1782?,positiva,2
+Q-055,¿Cuál es la fecha de vencimiento del contrato con GreenDataCenter?,negativa,No se especifican fechas de vencimiento de contratos con proveedores en el corpus.
+Q-056,¿Cuál es el propósito principal del Nodo Alfa?,positiva,Entrenamiento de grandes modelos y procesos batch no sensibles a la latencia.
+Q-057,¿En qué fecha fue contratado el empleado con ID EMP-1181?,positiva,2023-06-13
+Q-058,¿Cuántos kg de CO₂ generó el gasto GST-006?,positiva,0 kg
+Q-059,¿En qué departamento trabaja el empleado EMP-0069?,positiva,Ingeniería
+Q-060,¿Qué producto tiene contratado el cliente CLI-0038?,positiva,Verdant LLM
+Q-061,¿Cuál es el puesto exacto del empleado con ID EMP-0506?,positiva,Especialista en Marketing
+Q-062,¿En qué fecha fue contratado el empleado con ID EMP-1331?,positiva,2023-04-24
+Q-063,¿Cuál es el puesto exacto del empleado con ID EMP-1242?,positiva,Ingeniero de Eficiencia Energética
+Q-064,¿Qué nivel de acceso tiene Marcos Panda?,positiva,3
+Q-065,¿Qué nivel de soporte le corresponde al cliente CLI-0310?,positiva,Dedicado (SLA 99.99%)
+Q-066,¿Cuál es el MRR mensual del cliente CLI-0154?,positiva,1515 EUR
+Q-067,¿Qué plataforma de CI/CD usa el equipo de ingeniería?,negativa,No se menciona la plataforma de CI/CD en el corpus.
+Q-068,¿Qué porcentaje de crédito recibe un cliente si el Uptime baja del 95%?,positiva,100% de la facturación mensual.
+Q-069,"El 2023-12-01T08:00:00Z, ¿cuál era el PUE instantáneo del Nodo Beta?",positiva,1.11
+Q-070,¿Qué nivel de acceso tiene el empleado con ID EMP-1172?,positiva,3
+Q-071,¿En qué departamento trabaja el empleado EMP-1221?,positiva,Legal
+Q-072,"El 2023-12-01T20:00:00Z, ¿cuántos kW consumía el Nodo Alfa?",positiva,445 kW
+Q-073,¿Cuál es el puesto exacto del empleado con ID EMP-1872?,positiva,Data Scientist
+Q-074,¿Qué nivel de acceso tiene el empleado con ID EMP-0559?,positiva,2
+Q-075,¿Cuál es el salario anual del empleado EMP-0563?,positiva,44919 EUR
+Q-076,¿En qué fecha empezó la relación comercial con el cliente CLI-0241?,positiva,2023-11-09
+Q-077,¿Qué nivel de acceso tiene Lucía Pérez?,positiva,4
+Q-078,¿En qué departamento trabaja el empleado EMP-0626?,positiva,Ingeniería
+Q-079,¿Cuál es el salario de Elon Musk en NexusLeaf?,negativa,Elon Musk no es empleado de NexusLeaf.
+Q-080,¿Qué categoría tiene el gasto GST-010?,positiva,Operaciones
+Q-081,¿Qué nivel de acceso tiene el empleado con ID EMP-0547?,positiva,3
+Q-082,¿Cuál es el puesto exacto del empleado con ID EMP-1104?,positiva,Especialista en Ventas
+Q-083,"El 2023-12-02T02:00:00Z, ¿cuántos kW consumía el Nodo Alfa?",positiva,500 kW
+Q-084,¿En qué departamento trabaja el empleado EMP-1368?,positiva,Ingeniería
+Q-085,¿Qué nivel de acceso tiene el empleado con ID EMP-1302?,positiva,3
+Q-086,"El 2023-12-02T02:00:00Z, ¿cuál era el PUE instantáneo del Nodo Beta?",positiva,1.15
+Q-087,¿Cuántos kg de CO₂ generó el gasto GST-001?,positiva,0 kg
+Q-088,¿Qué nivel de soporte le corresponde al cliente CLI-0053?,positiva,Dedicado (SLA 99.99%)
+Q-089,¿Qué nivel de soporte le corresponde al cliente CLI-0301?,positiva,Prioritario
+Q-090,¿Cuál es el puesto exacto del empleado con ID EMP-1539?,positiva,Ingeniero de Eficiencia Energética
+Q-091,¿Qué nivel de acceso tiene el empleado con ID EMP-1716?,positiva,3
+Q-092,¿Qué nivel de soporte le corresponde al cliente CLI-0277?,positiva,Dedicado (SLA 99.99%)
+Q-093,¿En qué fecha empezó la relación comercial con el cliente CLI-0251?,positiva,2023-06-14
+Q-094,¿Cuál fue el gasto en electricidad del Nodo Alfa durante 2023?,negativa,No hay un desglose de gasto en electricidad por nodo en el registro de gastos.
+Q-095,¿Qué tipo de entidad es el cliente CLI-0056?,positiva,Empresa
+Q-096,¿Cuál es el MRR mensual del cliente CLI-0342?,positiva,11782 EUR
+Q-097,¿Qué tipo de refrigeración usa el Nodo Alfa?,positiva,Free-cooling (Aire exterior).
+Q-098,¿Qué producto tiene contratado el cliente CLI-0233?,positiva,EcoNode Serverless
+Q-099,¿Cuál es el puesto exacto del empleado con ID EMP-1706?,positiva,Especialista en Refrigeración
+Q-100,¿En qué fecha empezó la relación comercial con el cliente CLI-0324?,positiva,2024-01-20
+Q-101,¿Cuál es el salario anual del empleado EMP-1801?,positiva,65719 EUR
+Q-102,¿Qué nivel de soporte le corresponde al cliente CLI-0190?,positiva,Dedicado (SLA 99.99%)
+Q-103,¿Cuál es el puesto exacto del empleado con ID EMP-1583?,positiva,Arquitecto Cloud
+Q-104,"El 2023-12-01T08:00:00Z, ¿cuál era el PUE instantáneo del Nodo Alfa?",positiva,1.03
+Q-105,¿Cuáles son los valores corporativos de NexusLeaf? (Las 3 T),positiva,"Transparencia, Tenacidad y Trascendencia."
+Q-106,¿Qué nivel de acceso tiene el empleado con ID EMP-0591?,positiva,3
+Q-107,¿Cuánto se invirtió en marketing y ventas en 2023?,positiva,65.000 EUR.
+Q-108,¿Qué tipo de entidad es el cliente CLI-0181?,positiva,Empresa
+Q-109,¿Qué producto tiene contratado el cliente CLI-0157?,positiva,Bamboo DB
+Q-110,¿Qué nivel de soporte le corresponde al cliente CLI-0061?,positiva,Prioritario
+Q-111,¿Qué nivel de soporte le corresponde al cliente CLI-0090?,positiva,Prioritario
+Q-112,¿Quién es la CEO de la empresa?,positiva,Elena Casanova
+Q-113,¿Cuál es el CIF de NexusLeaf Technologies?,positiva,B-98765432
+Q-114,¿Cuál es el puesto exacto del empleado con ID EMP-0727?,positiva,Especialista en Refrigeración
+Q-115,¿En qué fecha se registró el gasto con ID GST-002?,positiva,2023-02-20
+Q-116,¿Cuántos kg de CO₂ generó el gasto GST-008?,positiva,0 kg
+Q-117,¿En qué fecha fue contratado el empleado con ID EMP-0946?,positiva,2023-05-30
+Q-118,¿En qué fecha fue contratado el empleado con ID EMP-0970?,positiva,2022-04-11
+Q-119,¿Qué nivel de soporte le corresponde al cliente CLI-0306?,positiva,Dedicado (SLA 99.99%)
+Q-120,¿En qué fecha fue contratado el empleado con ID EMP-0192?,positiva,2023-05-26
+Q-121,¿Cuál es el PUE del Nodo Gamma?,positiva,1.08
+Q-122,¿A qué proveedor corresponde el gasto GST-008?,positiva,Garrigues
+Q-123,¿Cuál es el puesto exacto del empleado con ID EMP-1877?,positiva,Especialista en Ventas
+Q-124,¿Cuál es el salario anual del empleado EMP-1772?,positiva,76352 EUR
+Q-125,¿Qué tipo de entidad es el cliente CLI-0228?,positiva,Empresa
+Q-126,¿Cuál es el puesto exacto del empleado con ID EMP-1043?,positiva,Especialista en Ventas
+Q-127,¿En qué fecha fue contratado el empleado con ID EMP-1454?,positiva,2022-06-19
+Q-128,"El 2023-12-01T14:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Gamma?",positiva,5%
+Q-129,¿En qué fecha fue contratado el empleado con ID EMP-0953?,positiva,2022-06-14
+Q-130,¿Qué nivel de acceso tiene Daniel Torres?,positiva,1
+Q-131,¿Cuál es el MRR exacto del Ministerio de Educación?,negativa,"No hay constancia de un cliente llamado 'Ministerio de Educación' con MRR en los datos sintéticos (los nombres se generan aleatoriamente, no se puede garantizar que exista sin mirar el CSV, pero generalizando, es información no asegurada)."
+Q-132,¿En qué fecha se registró el gasto con ID GST-007?,positiva,2023-07-10
+Q-133,¿Qué modelo de GPU usa el Nodo Gamma en Oslo?,negativa,No se especifica el modelo de GPU del Nodo Gamma en la documentación.
+Q-134,¿En qué fecha empezó la relación comercial con el cliente CLI-0296?,positiva,2023-08-22
+Q-135,¿Cuándo se lanzará Bamboo DB v2.0?,negativa,No hay información sobre futuros lanzamientos de versiones.
+Q-136,¿En qué fecha fue contratado el empleado con ID EMP-1265?,positiva,2023-02-24
+Q-137,¿Cuál es el salario anual del empleado EMP-0933?,positiva,54469 EUR
+Q-138,¿En qué departamento trabaja el empleado EMP-0376?,positiva,Ventas
+Q-139,¿Qué sistema de refrigeración usa el Nodo Gamma?,positiva,Free-cooling e intercambio con red de calefacción urbana.
+Q-140,¿En qué fecha fue contratado el empleado con ID EMP-2000?,positiva,2023-12-15
+Q-141,¿Qué producto tiene contratado el cliente CLI-0079?,positiva,EcoNode Serverless
+Q-142,¿Qué producto tiene contratado el cliente CLI-0251?,positiva,Verdant LLM + Bamboo DB
+Q-143,¿Qué nivel de acceso tiene el empleado con ID EMP-0500?,positiva,3
+Q-144,¿En qué departamento trabaja el empleado EMP-1403?,positiva,Operaciones Verdes
+Q-145,¿En qué departamento trabaja el empleado EMP-1035?,positiva,Ingeniería
+Q-146,¿En qué fecha fue contratado el empleado con ID EMP-1771?,positiva,2022-08-10
+Q-147,¿Cuántos servidores físicos tiene el Nodo Beta en Huesca?,negativa,No se detalla el número de servidores en la documentación de infraestructura.
+Q-148,¿Qué tipo de cifrado usa Bamboo DB en reposo?,positiva,AES-256.
+Q-149,¿Cuál es el puesto exacto del empleado con ID EMP-1757?,positiva,Desarrollador Senior
+Q-150,¿Cuál es el puesto exacto del empleado con ID EMP-0152?,positiva,Especialista en Marketing
+Q-151,¿Qué nivel de acceso tiene el empleado con ID EMP-1366?,positiva,3
+Q-152,¿En qué fecha fue contratado el empleado con ID EMP-1350?,positiva,2023-07-01
+Q-153,¿En qué fecha fue contratado el empleado con ID EMP-0906?,positiva,2023-08-16
+Q-154,"El 2023-12-01T08:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Beta?",positiva,25%
+Q-155,¿Cuál es el salario anual del empleado EMP-0645?,positiva,78519 EUR
+Q-156,¿Qué nivel de soporte le corresponde al cliente CLI-0164?,positiva,Dedicado (SLA 99.99%)
+Q-157,¿Qué tipo de entidad es el cliente CLI-0218?,positiva,Empresa
+Q-158,¿Qué nivel de acceso tiene el empleado con ID EMP-0811?,positiva,2
+Q-159,¿Qué porcentaje de crédito recibe si el Uptime está entre 99% y 99.95%?,positiva,10% de la facturación mensual.
+Q-160,¿En qué fecha empezó la relación comercial con el cliente CLI-0052?,positiva,2023-08-11
+Q-161,¿Cuál es el MRR mensual del cliente CLI-0153?,positiva,13757 EUR
+Q-162,¿Cuánto cuesta la suscripción básica mensual de EcoNode?,negativa,No se especifica un precio público de suscripción en la documentación.
+Q-163,¿Qué nivel de acceso tiene el empleado con ID EMP-0284?,positiva,2
+Q-164,¿En qué departamento trabaja el empleado EMP-0408?,positiva,Ingeniería
+Q-165,¿En qué año se fundó NexusLeaf Technologies?,positiva,2022
+Q-166,¿En qué departamento trabaja el empleado EMP-0066?,positiva,Legal
+Q-167,¿Qué tipo de entidad es el cliente CLI-0075?,positiva,Particular
+Q-168,"El 2023-12-02T02:00:00Z, ¿qué fuente de energía usaba el Nodo Gamma?",positiva,Hidroelectrica
+Q-169,¿Qué hace EcoNode Serverless?,positiva,Enruta dinámicamente las cargas de trabajo hacia centros de datos con energía renovable en momentos de baja demanda.
+Q-170,"El 2023-12-01T20:00:00Z, ¿cuál era el PUE instantáneo del Nodo Gamma?",positiva,1.08
+Q-171,¿Qué nivel de acceso tiene Cozy Al-Fayed?,positiva,4
+Q-172,¿Cuál fue el importe del gasto con ID GST-010?,positiva,12000 EUR
+Q-173,¿Tiene NexusLeaf oficinas en Latinoamérica?,negativa,No hay constancia de presencia en Latinoamérica en el corpus.
+Q-174,¿Qué nivel de acceso tiene el empleado con ID EMP-1182?,positiva,1
+Q-175,¿Qué nivel de acceso tiene el empleado con ID EMP-0678?,positiva,3
+Q-176,¿Dónde está ubicado el Nodo Gamma?,positiva,"Oslo, Noruega."
+Q-177,¿En qué fecha fue contratado el empleado con ID EMP-0321?,positiva,2023-08-08
+Q-178,¿Qué nivel de acceso tiene el empleado con ID EMP-1985?,positiva,2
+Q-179,¿Qué certificaciones ISO tiene NexusLeaf?,negativa,No se mencionan certificaciones ISO en la documentación.
+Q-180,¿En qué departamento trabaja el empleado EMP-0522?,positiva,Recursos Humanos
+Q-181,¿Qué nivel de acceso tiene el empleado con ID EMP-0335?,positiva,2
+Q-182,¿En qué fecha empezó la relación comercial con el cliente CLI-0137?,positiva,2022-11-01
+Q-183,¿Cuál es el MRR mensual del cliente CLI-0125?,positiva,39593 EUR
+Q-184,¿Qué reglamento de protección de datos cumple NexusLeaf?,positiva,El RGPD (Reglamento General de Protección de Datos) europeo.
+Q-185,¿En qué fecha empezó la relación comercial con el cliente CLI-0037?,positiva,2023-04-30
+Q-186,¿Qué producto tiene contratado el cliente CLI-0093?,positiva,EcoNode + Bamboo DB
+Q-187,¿Cuál es el puesto exacto del empleado con ID EMP-0818?,positiva,Especialista en Marketing
+Q-188,¿Qué nivel de acceso tiene el empleado con ID EMP-1467?,positiva,3
+Q-189,¿Cuál es el MRR mensual del cliente CLI-0295?,positiva,1065 EUR
+Q-190,¿Qué tipo de entidad es el cliente CLI-0068?,positiva,Empresa
+Q-191,¿En qué departamento trabaja el empleado EMP-1492?,positiva,Marketing
+Q-192,¿Cuál es el salario anual del empleado EMP-1433?,positiva,26871 EUR
+Q-193,¿En qué departamento trabaja el empleado EMP-0361?,positiva,Operaciones Verdes
+Q-194,¿En qué fecha fue contratado el empleado con ID EMP-1013?,positiva,2024-01-23
+Q-195,¿En qué departamento trabaja el empleado EMP-1742?,positiva,Ventas
+Q-196,¿En qué fecha fue contratado el empleado con ID EMP-1593?,positiva,2023-09-13
+Q-197,¿Cuántos clientes tiene NexusLeaf en Estados Unidos?,negativa,"No se dispone de datos de geolocalización de clientes a nivel internacional, el enfoque inicial parece europeo/español."
+Q-198,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Gamma?",positiva,5%
+Q-199,¿Qué producto tiene contratado el cliente CLI-0268?,positiva,EcoNode + Bamboo DB
+Q-200,¿Cuál fue el importe del gasto con ID GST-001?,positiva,15000 EUR
+Q-201,¿Qué tono usa NexusLeaf en documentación técnica?,positiva,Uso de 'tú'.
+Q-202,¿En qué fecha fue contratado el empleado con ID EMP-0338?,positiva,2023-05-19
+Q-203,"El 2023-12-01T14:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Gamma?",positiva,15%
+Q-204,¿Qué tipo de entidad es el cliente CLI-0151?,positiva,Organización Gubernamental
+Q-205,¿En qué fecha fue contratado el empleado con ID EMP-1037?,positiva,2024-01-24
+Q-206,¿En qué fecha empezó la relación comercial con el cliente CLI-0231?,positiva,2024-03-20
+Q-207,¿En qué departamento trabaja el empleado EMP-1699?,positiva,Ventas
+Q-208,¿Qué fuente de energía usa el Nodo Beta?,positiva,100% Solar y Eólica.
+Q-209,¿Qué significa 'Transparencia' en los valores de NexusLeaf?,positiva,Código abierto en herramientas fundamentales y métricas de consumo energético públicas en tiempo real.
+Q-210,¿En qué fecha se registró el gasto con ID GST-006?,positiva,2023-06-25
+Q-211,¿En qué departamento trabaja el empleado EMP-1036?,positiva,Ingeniería
+Q-212,¿Cuántos parámetros tiene el modelo Verdant Pro 100B?,negativa,NexusLeaf solo cuenta con Verdant LLM de 7B parámetros. No existe la versión 100B.
+Q-213,¿Qué nivel de acceso tiene el empleado con ID EMP-1103?,positiva,2
+Q-214,¿Cuál es el salario anual del empleado EMP-1562?,positiva,28277 EUR
+Q-215,¿Cuál es el MRR mensual del cliente CLI-0296?,positiva,10873 EUR
+Q-216,"El 2023-12-01T14:00:00Z, ¿cuál era el PUE instantáneo del Nodo Alfa?",positiva,1.03
+Q-217,¿Qué nivel de acceso tiene el empleado con ID EMP-1482?,positiva,1
+Q-218,¿Qué producto tiene contratado el cliente CLI-0120?,positiva,Verdant LLM + Bamboo DB
+Q-219,¿Qué tipo de entidad es el cliente CLI-0232?,positiva,Empresa
+Q-220,¿Cuál es el puesto exacto del empleado con ID EMP-1176?,positiva,Desarrollador Junior
+Q-221,¿Qué producto tiene contratado el cliente CLI-0243?,positiva,Bamboo DB
+Q-222,¿Cuál es el salario anual del empleado EMP-0322?,positiva,32555 EUR
+Q-223,¿Qué puntuación NPS tiene NexusLeaf entre sus clientes?,negativa,No hay información sobre encuestas de satisfacción o NPS en el corpus.
+Q-224,¿Qué nivel de soporte le corresponde al cliente CLI-0242?,positiva,Básico
+Q-225,¿Qué nivel de soporte le corresponde al cliente CLI-0139?,positiva,Dedicado (SLA 99.99%)
+Q-226,¿En qué departamento trabaja el empleado EMP-0555?,positiva,Legal
+Q-227,"El 2023-12-01T14:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Beta?",positiva,60%
+Q-228,¿Qué nivel de soporte le corresponde al cliente CLI-0098?,positiva,Dedicado (SLA 99.99%)
+Q-229,¿Cuál es el sector de la entidad 'Tech Innovación S.L.'?,positiva,Retail
+Q-230,¿Qué producto tiene contratado el cliente CLI-0178?,positiva,EcoNode Serverless
+Q-231,"El 2023-12-01T20:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Gamma?",positiva,10%
+Q-232,¿En qué fecha fue contratado el empleado con ID EMP-1366?,positiva,2022-10-03
+Q-233,¿A qué proveedor corresponde el gasto GST-009?,positiva,GreenDataCenter
+Q-234,¿En qué departamento trabaja el empleado EMP-1509?,positiva,Marketing
+Q-235,¿En qué departamento trabaja el empleado EMP-1443?,positiva,Operaciones Verdes
+Q-236,¿A qué proveedor corresponde el gasto GST-001?,positiva,GreenDataCenter
+Q-237,¿En qué fecha empezó la relación comercial con el cliente CLI-0171?,positiva,2022-07-25
+Q-238,¿Cuál es el puesto exacto del empleado con ID EMP-1797?,positiva,Especialista en Ventas
+Q-239,¿Cuál es el puesto exacto del empleado con ID EMP-1362?,positiva,Desarrollador Senior
+Q-240,¿Qué nivel de acceso tiene el empleado con ID EMP-0210?,positiva,2
+Q-241,¿Qué nivel de soporte le corresponde al cliente CLI-0230?,positiva,Prioritario
+Q-242,¿Dónde está ubicado el Nodo Beta?,positiva,"Huesca, España."
+Q-243,¿Cuál es el sector de la entidad 'Cloud Data S.L.'?,positiva,Finanzas
+Q-244,¿Qué categoría tiene el gasto GST-005?,positiva,I+D
+Q-245,¿Para qué casos de uso está optimizado Verdant LLM?,positiva,Para auditorías legales y financieras.
+Q-246,¿En qué fecha fue contratado el empleado con ID EMP-1681?,positiva,2022-10-07
+Q-247,¿Qué porcentaje de crédito recibe si el Uptime está entre 95% y 99%?,positiva,25% de la facturación mensual.
+Q-248,¿Cuál es el MRR mensual del cliente CLI-0265?,positiva,27489 EUR
+Q-249,¿Qué categoría tiene el gasto GST-007?,positiva,Marketing
+Q-250,¿Cuál es el puesto exacto del empleado con ID EMP-0431?,positiva,Especialista en Ventas
+Q-251,¿Cuál es el sector de la entidad 'Innovación Sistemas S.L.'?,positiva,Finanzas
+Q-252,¿Cuántos kg de CO₂ generó el gasto GST-005?,positiva,0 kg
+Q-253,¿Cuánto se invirtió en formación de empleados en 2023?,negativa,No se detalla una partida de formación de empleados en el balance de 2023.
+Q-254,¿Qué tipo de entidad es el cliente CLI-0093?,positiva,Empresa
+Q-255,¿Qué tipo de entidad es el cliente CLI-0082?,positiva,Empresa
+Q-256,¿Cuál es el puesto exacto del empleado con ID EMP-0782?,positiva,Desarrollador Senior
+Q-257,¿Cuál es el puesto exacto del empleado con ID EMP-1915?,positiva,Especialista en Legal
+Q-258,"El 2023-12-01T08:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Beta?",positiva,40%
+Q-259,¿Qué modelo de procesador (CPU) usa el Nodo Alfa?,negativa,La documentación menciona GPUs (como L40S) pero no el modelo exacto de CPU.
+Q-260,¿Cuál es el MRR mensual del cliente CLI-0065?,positiva,13112 EUR
+Q-261,¿Qué tipo de entidad es el cliente CLI-0213?,positiva,Particular
+Q-262,¿Qué tipo de entidad es el cliente CLI-0121?,positiva,Empresa
+Q-263,¿Quién es el actual CEO de Iberia Tech Ventures?,negativa,No se dispone de información sobre el CEO del fondo de inversión.
+Q-264,¿En qué fecha fue contratado el empleado con ID EMP-0937?,positiva,2023-07-14
+Q-265,¿Qué nivel de soporte le corresponde al cliente CLI-0224?,positiva,Dedicado (SLA 99.99%)
+Q-266,¿Cuál es el puesto exacto del empleado con ID EMP-1350?,positiva,Data Scientist
+Q-267,¿En qué fecha fue contratado el empleado con ID EMP-1685?,positiva,2022-09-23
+Q-268,¿Qué nivel de soporte le corresponde al cliente CLI-0106?,positiva,Dedicado (SLA 99.99%)
+Q-269,¿Qué fondo lideró la ronda de inversión en 2023?,positiva,Iberia Tech Ventures.
+Q-270,¿Cuál es el puesto exacto del empleado con ID EMP-1931?,positiva,Especialista en Soporte Técnico
+Q-271,¿En cuánto se ha reducido el consumo de VRAM de Verdant LLM respecto al mercado?,positiva,En un 40%.
+Q-272,¿En qué departamento trabaja el empleado EMP-0368?,positiva,Legal
+Q-273,¿Cuántos días duró la auditoría de Green Ops en 2023?,negativa,No hay registros específicos de la duración de las auditorías.
+Q-274,¿En qué departamento trabaja el empleado EMP-0466?,positiva,Finanzas
+Q-275,¿En qué departamento trabaja el empleado EMP-0284?,positiva,Ingeniería
+Q-276,¿Cuál es el salario anual del empleado EMP-1571?,positiva,68059 EUR
+Q-277,¿Qué tipo de entidad es el cliente CLI-0279?,positiva,Organización Gubernamental
+Q-278,¿Qué nivel de soporte le corresponde al cliente CLI-0123?,positiva,Prioritario
+Q-279,¿Cuál es el puesto exacto del empleado con ID EMP-0185?,positiva,Especialista en Soporte Técnico
+Q-280,¿Qué tipo de entidad es el cliente CLI-0313?,positiva,Empresa
+Q-281,¿Tiene NexusLeaf un programa de stock options para empleados?,negativa,No se menciona ningún programa de stock options en el corpus.
+Q-282,¿Dónde se encuentra la sede central de NexusLeaf?,positiva,"Distrito Digital, Avenida de las Cortes Valencianas 15, Edificio B, Planta 4, Valencia, España."
+Q-283,¿Qué producto tiene contratado el cliente CLI-0039?,positiva,Verdant LLM
+Q-284,¿Qué nivel de acceso tiene el empleado con ID EMP-1275?,positiva,2
+Q-285,¿Qué nivel de soporte le corresponde al cliente CLI-0304?,positiva,Dedicado (SLA 99.99%)
+Q-286,¿Qué producto tiene contratado el cliente CLI-0328?,positiva,Bamboo DB
+Q-287,¿Qué producto tiene contratado el cliente CLI-0159?,positiva,Verdant LLM
+Q-288,¿Qué tipo de entidad es el cliente CLI-0141?,positiva,Organización Gubernamental
+Q-289,¿En qué fecha fue contratado el empleado con ID EMP-0909?,positiva,2024-02-22
+Q-290,¿Cuál es el salario anual del empleado EMP-0142?,positiva,60706 EUR
+Q-291,¿Cuánto capital se levantó en la ronda semilla de 2023?,positiva,"1,2 millones de euros."
+Q-292,¿En qué fecha fue contratado el empleado con ID EMP-1923?,positiva,2022-07-05
+Q-293,¿Cuál es el MRR mensual del cliente CLI-0022?,positiva,14625 EUR
+Q-294,¿Qué nivel de acceso tiene el empleado con ID EMP-1702?,positiva,2
+Q-295,¿Qué nivel de acceso tiene el empleado con ID EMP-0156?,positiva,3
+Q-296,¿Cuál es el puesto exacto del empleado con ID EMP-0360?,positiva,Data Scientist
+Q-297,¿En qué departamento trabaja el empleado EMP-0898?,positiva,Ingeniería
+Q-298,¿En qué fecha se registró el gasto con ID GST-008?,positiva,2023-08-05
+Q-299,¿Qué producto tiene contratado el cliente CLI-0147?,positiva,Verdant LLM + Bamboo DB
+Q-300,¿Cuál es el salario anual del empleado EMP-1438?,positiva,75017 EUR
+Q-301,¿En qué departamento trabaja el empleado EMP-0424?,positiva,Recursos Humanos
+Q-302,¿A qué proveedor corresponde el gasto GST-002?,positiva,Nvidia
+Q-303,¿Cuál es el puesto exacto del empleado con ID EMP-1898?,positiva,Auditor Green Ops
+Q-304,¿Qué nivel de acceso tiene el empleado con ID EMP-0248?,positiva,3
+Q-305,¿Cuál es el puesto exacto del empleado con ID EMP-1352?,positiva,Especialista en Recursos Humanos
+Q-306,¿Qué empresa construyó los paneles solares del Nodo Beta?,negativa,"El registro de gastos menciona a 'SolarTech' para la oficina de Valencia, pero no especifica el fabricante de los de Huesca."
+Q-307,¿Qué nivel de soporte le corresponde al cliente CLI-0097?,positiva,Prioritario
+Q-308,¿Qué proveedor de energía eólica usa el Nodo Gamma en Noruega?,negativa,"El Nodo Gamma usa energía 100% Hidroeléctrica, no eólica."
+Q-309,"El 2023-12-01T08:00:00Z, ¿cuál era el PUE instantáneo del Nodo Gamma?",positiva,1.08
+Q-310,¿Cuál es el puesto exacto del empleado con ID EMP-0070?,positiva,Arquitecto Cloud
+Q-311,¿En qué departamento trabaja el empleado EMP-1475?,positiva,Ingeniería
+Q-312,¿En qué fecha fue contratado el empleado con ID EMP-1541?,positiva,2023-03-21
+Q-313,¿Qué producto tiene contratado el cliente CLI-0249?,positiva,Verdant LLM + Bamboo DB
+Q-314,¿A qué proveedor corresponde el gasto GST-010?,positiva,SolarTech
+Q-315,¿En qué fecha empezó la relación comercial con el cliente CLI-0286?,positiva,2022-11-28
+Q-316,¿En qué fecha fue contratado el empleado con ID EMP-1654?,positiva,2023-09-18
+Q-317,¿Qué tipo de entidad es el cliente CLI-0027?,positiva,Empresa
+Q-318,¿Cuál es el puesto exacto del empleado con ID EMP-0476?,positiva,Arquitecto Cloud
+Q-319,¿Qué nivel de soporte le corresponde al cliente CLI-0015?,positiva,Prioritario
+Q-320,¿Cuál es el lema de NexusLeaf Technologies?,positiva,"Conectando el mañana, respetando el hoy."
+Q-321,¿Qué nivel de soporte le corresponde al cliente CLI-0163?,positiva,Dedicado (SLA 99.99%)
+Q-322,¿Cuál es el salario anual del empleado EMP-1995?,positiva,34106 EUR
+Q-323,¿Qué nivel de acceso tiene el empleado con ID EMP-0995?,positiva,3
+Q-324,¿Cuál fue el importe del gasto con ID GST-007?,positiva,15000 EUR
+Q-325,¿Qué tipo de entidad es el cliente CLI-0179?,positiva,Empresa
+Q-326,¿Qué nivel de acceso tiene el empleado con ID EMP-0652?,positiva,1
+Q-327,¿En qué departamento trabaja el empleado EMP-1440?,positiva,Soporte Técnico
+Q-328,"El 2023-12-01T20:00:00Z, ¿qué fuente de energía usaba el Nodo Beta?",positiva,Eolica
+Q-329,¿Cuál es el salario anual del empleado EMP-0897?,positiva,68580 EUR
+Q-330,¿Cuál es el salario anual del empleado EMP-1287?,positiva,33103 EUR
+Q-331,¿Qué nivel de soporte le corresponde al cliente CLI-0074?,positiva,Dedicado (SLA 99.99%)
+Q-332,"El 2023-12-01T20:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Alfa?",positiva,85%
+Q-333,¿Qué tipo de entidad es el cliente CLI-0273?,positiva,Empresa
+Q-334,¿En qué fecha empezó la relación comercial con el cliente CLI-0146?,positiva,2023-09-02
+Q-335,¿Cuál es el puesto exacto del empleado con ID EMP-1521?,positiva,Especialista en Ventas
+Q-336,¿En qué fecha fue contratado el empleado con ID EMP-0103?,positiva,2023-08-19
+Q-337,¿Cuál es el salario anual del empleado EMP-0881?,positiva,29315 EUR
+Q-338,¿En qué departamento trabaja el empleado EMP-1804?,positiva,Operaciones Verdes
+Q-339,"El 2023-12-01T20:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Gamma?",positiva,20%
+Q-340,¿Cuántos parámetros tiene Verdant LLM?,positiva,7 mil millones de parámetros (7B).
+Q-341,¿Cuántos parámetros tiene el modelo Gemma que usa NexusLeaf internamente?,negativa,NexusLeaf no usa Gemma internamente según el corpus. Su modelo propio es Verdant LLM de 7B.
+Q-342,¿Cuál es el MRR mensual del cliente CLI-0032?,positiva,6394 EUR
+Q-343,¿En qué fecha fue contratado el empleado con ID EMP-1649?,positiva,2022-07-16
+Q-344,¿Qué nivel de acceso tiene el empleado con ID EMP-0303?,positiva,1
+Q-345,¿Cuál es el MRR mensual del cliente CLI-0329?,positiva,1146 EUR
+Q-346,¿Qué nivel de acceso tiene el empleado con ID EMP-0894?,positiva,3
+Q-347,¿En qué fecha fue contratado el empleado con ID EMP-0571?,positiva,2024-04-11
+Q-348,¿En qué departamento trabaja el empleado EMP-1955?,positiva,Ingeniería
+Q-349,¿Qué nivel de acceso tiene Héctor Alonso?,positiva,2
+Q-350,¿En qué fecha se registró el gasto con ID GST-005?,positiva,2023-05-18
+Q-351,¿Cuál es el puesto exacto del empleado con ID EMP-0712?,positiva,Especialista en Refrigeración
+Q-352,"El 2023-12-02T02:00:00Z, ¿qué fuente de energía usaba el Nodo Alfa?",positiva,Geotermica
+Q-353,¿Qué latencia ofrece Bamboo DB?,positiva,Latencia de milisegundos.
+Q-354,¿Cuál es el salario anual del empleado EMP-1736?,positiva,25899 EUR
+Q-355,¿Qué latencia máxima ofrece el Nodo Beta para la Península Ibérica?,positiva,< 20ms
+Q-356,¿Qué nivel de soporte le corresponde al cliente CLI-0149?,positiva,Prioritario
+Q-357,¿Cuál fue el importe del gasto con ID GST-004?,positiva,22000 EUR
+Q-358,¿Cuántos nodos de procesamiento tiene EcoNode en total?,negativa,"La documentación menciona tres nodos (Alfa, Beta, Gamma), pero no descarta que haya más no documentados."
+Q-359,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Gamma?",positiva,15%
+Q-360,¿Cuál es la IP exacta del servidor de base de datos Bamboo DB?,negativa,"La política de privacidad indica que no se almacena IP completa, y no hay IPs públicas en la documentación."
+Q-361,¿Qué producto tiene contratado el cliente CLI-0173?,positiva,EcoNode Serverless
+Q-362,¿Cuál es el salario anual del empleado EMP-0502?,positiva,61492 EUR
+Q-363,¿En qué fecha empezó la relación comercial con el cliente CLI-0346?,positiva,2024-01-30
+Q-364,¿Qué nivel de acceso tiene el empleado con ID EMP-1249?,positiva,3
+Q-365,"El 2023-12-01T20:00:00Z, ¿qué fuente de energía usaba el Nodo Alfa?",positiva,Geotermica
+Q-366,¿Cuál es el MRR mensual del cliente CLI-0048?,positiva,20506 EUR
+Q-367,¿Qué tipo de entidad es el cliente CLI-0136?,positiva,Organización Gubernamental
+Q-368,¿Qué nivel de acceso tiene el empleado con ID EMP-1537?,positiva,2
+Q-369,¿Qué producto tiene contratado el cliente CLI-0119?,positiva,EcoNode + Bamboo DB
+Q-370,¿Qué nivel de soporte le corresponde al cliente CLI-0244?,positiva,Dedicado (SLA 99.99%)
+Q-371,¿Qué producto tiene contratado el cliente CLI-0310?,positiva,Verdant LLM
+Q-372,¿Qué nivel de soporte le corresponde al cliente CLI-0023?,positiva,Dedicado (SLA 99.99%)
+Q-373,"El 2023-12-01T08:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Gamma?",positiva,5%
+Q-374,¿Cuáles fueron los ingresos operativos de NexusLeaf en 2023?,positiva,450.000 EUR por suscripciones a EcoNode y Bamboo DB.
+Q-375,¿Qué nivel de soporte le corresponde al cliente CLI-0027?,positiva,Dedicado (SLA 99.99%)
+Q-376,¿Dónde está ubicado el Nodo Alfa?,positiva,"Reikiavik, Islandia."
+Q-377,¿Qué nivel de acceso tiene el empleado con ID EMP-1759?,positiva,3
+Q-378,¿En qué fecha empezó la relación comercial con el cliente CLI-0317?,positiva,2022-06-12
+Q-379,¿Cuántas horas de antelación avisa NexusLeaf de un mantenimiento programado?,positiva,Al menos 48 horas.
+Q-380,¿En qué departamento trabaja el empleado EMP-1569?,positiva,Recursos Humanos
+Q-381,¿En qué departamento trabaja el empleado EMP-0908?,positiva,Ventas
+Q-382,¿En qué fecha se registró el gasto con ID GST-009?,positiva,2023-09-12
+Q-383,¿Cuál es el salario anual del empleado EMP-0433?,positiva,49337 EUR
+Q-384,¿En qué departamento trabaja el empleado EMP-0118?,positiva,Ingeniería
+Q-385,¿Qué tipo de entidad es el cliente CLI-0016?,positiva,Empresa
+Q-386,¿Cuál es el salario anual del empleado EMP-0832?,positiva,46581 EUR
+Q-387,¿En qué departamento trabaja el empleado EMP-1276?,positiva,Ingeniería
+Q-388,¿Qué tono de comunicación usa NexusLeaf con clientes institucionales?,positiva,Uso de 'usted'.
+Q-389,¿Cuál es el salario anual del empleado EMP-0698?,positiva,34370 EUR
+Q-390,¿Qué producto tiene contratado el cliente CLI-0011?,positiva,EcoNode + Bamboo DB
+Q-391,"El 2023-12-01T14:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Alfa?",positiva,90%
+Q-392,¿En qué fecha fue contratado el empleado con ID EMP-1893?,positiva,2023-06-25
+Q-393,¿Cuál es el puesto exacto del empleado con ID EMP-0263?,positiva,Especialista en Recursos Humanos
+Q-394,¿Cuál es el salario anual del empleado EMP-0717?,positiva,62455 EUR
+Q-395,¿Qué nivel de acceso tiene el empleado con ID EMP-1116?,positiva,4
+Q-396,¿Cuál es el puesto exacto del empleado con ID EMP-0547?,positiva,Auditor Green Ops
+Q-397,"El 2023-12-01T14:00:00Z, ¿cuál era el PUE instantáneo del Nodo Gamma?",positiva,1.08
+Q-398,¿Cuál es el MRR mensual del cliente CLI-0307?,positiva,419 EUR
+Q-399,¿Cuál es el número de registro mercantil de NexusLeaf?,negativa,No se incluye el número de registro mercantil en la documentación.
+Q-400,¿Cuál es la dirección de correo electrónico del CEO Elena Casanova?,negativa,No se publica el email personal del CEO en la documentación.
+Q-401,¿En qué departamento trabaja el empleado EMP-0837?,positiva,Ingeniería
+Q-402,¿A qué proveedor corresponde el gasto GST-003?,positiva,AWS
+Q-403,¿Cuál es la política de vacaciones pagadas para los ingenieros DevOps?,negativa,Esa información no está disponible en el corpus de datos.
+Q-404,"El 2023-12-01T08:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Alfa?",positiva,85%
+Q-405,¿Qué nivel de acceso tiene Pablo Torres?,positiva,1
+Q-406,¿En qué fecha empezó la relación comercial con el cliente CLI-0042?,positiva,2024-04-19
+Q-407,¿Qué nivel de soporte le corresponde al cliente CLI-0331?,positiva,Dedicado (SLA 99.99%)
+Q-408,¿Existe un Comité de Ética de IA en NexusLeaf?,negativa,No se menciona ningún comité de ética en la documentación.
+Q-409,¿Qué nota tiene NexusLeaf en Glassdoor?,negativa,No hay información sobre la valoración de empleados en plataformas como Glassdoor.
+Q-410,¿Cuál es el puesto exacto del empleado con ID EMP-1368?,positiva,Arquitecto Cloud
+Q-411,¿Qué producto tiene contratado el cliente CLI-0047?,positiva,EcoNode + Bamboo DB
+Q-412,¿En qué fecha empezó la relación comercial con el cliente CLI-0322?,positiva,2023-12-28
+Q-413,¿En qué fecha fue contratado el empleado con ID EMP-1428?,positiva,2023-07-30
+Q-414,¿En qué fecha empezó la relación comercial con el cliente CLI-0328?,positiva,2023-07-12
+Q-415,¿Qué producto tiene contratado el cliente CLI-0228?,positiva,Verdant LLM + Bamboo DB
+Q-416,¿Qué tipo de entidad es el cliente CLI-0341?,positiva,Empresa
+Q-417,¿Qué producto tiene contratado el cliente CLI-0121?,positiva,Verdant LLM
+Q-418,¿En qué departamento trabaja el empleado EMP-1855?,positiva,Ingeniería
+Q-419,¿Cuántas mujeres trabajan en el departamento de Finanzas?,negativa,No hay métricas de género por departamento en el corpus.
+Q-420,¿Qué nivel de soporte le corresponde al cliente CLI-0184?,positiva,Prioritario
+Q-421,¿Cuál es el MRR mensual del cliente CLI-0173?,positiva,6375 EUR
+Q-422,¿Qué tipo de entidad es el cliente CLI-0066?,positiva,Empresa
+Q-423,¿Qué tipo de entidad es el cliente CLI-0111?,positiva,Empresa
+Q-424,¿Qué nivel de soporte le corresponde al cliente CLI-0159?,positiva,Dedicado (SLA 99.99%)
+Q-425,¿Hay un acuerdo de ERTE o ERE en NexusLeaf?,negativa,No hay información sobre EREs o ERTEs en la documentación de RRHH.
+Q-426,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Alfa?",positiva,95%
+Q-427,¿Cómo se llama el sistema operativo de los servidores del Nodo Beta?,negativa,No se menciona el sistema operativo en la infraestructura de los data centers.
+Q-428,¿En qué fecha fue contratado el empleado con ID EMP-1301?,positiva,2023-02-08
+Q-429,¿Cuál es el puesto exacto del empleado con ID EMP-0024?,positiva,Especialista en Finanzas
+Q-430,¿Qué nivel de acceso tiene el empleado con ID EMP-1936?,positiva,4
+Q-431,"El 2023-12-02T02:00:00Z, ¿cuál era el PUE instantáneo del Nodo Gamma?",positiva,1.08
+Q-432,¿En qué fecha fue contratado el empleado con ID EMP-1783?,positiva,2023-08-10
+Q-433,¿Cuál es el margen de beneficio exacto del producto Bamboo DB?,negativa,No se detalla el margen de beneficio por producto en el balance de finanzas.
+Q-434,¿Cuál fue el importe del gasto con ID GST-002?,positiva,85000 EUR
+Q-435,¿Qué nivel de acceso tiene el empleado con ID EMP-1099?,positiva,2
+Q-436,¿Qué nivel de soporte le corresponde al cliente CLI-0186?,positiva,Dedicado (SLA 99.99%)
+Q-437,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Alfa?",positiva,100%
+Q-438,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Alfa?",positiva,100%
+Q-439,¿Qué tipo de entidad es el cliente CLI-0203?,positiva,Empresa
+Q-440,¿Qué producto tiene contratado el cliente CLI-0238?,positiva,Verdant LLM
+Q-441,¿Qué nivel de soporte le corresponde al cliente CLI-0191?,positiva,Prioritario
+Q-442,"El 2023-12-01T08:00:00Z, ¿qué fuente de energía usaba el Nodo Gamma?",positiva,Hidroelectrica
+Q-443,¿Cuál fue el importe del gasto con ID GST-006?,positiva,18000 EUR
+Q-444,¿Cuál es el salario anual del empleado EMP-0491?,positiva,55780 EUR
+Q-445,¿En qué departamento trabaja Sofía Gómez?,positiva,Operaciones Verdes
+Q-446,"El 2023-12-01T14:00:00Z, ¿qué fuente de energía usaba el Nodo Beta?",positiva,Solar
+Q-447,¿Cuál es el MRR mensual del cliente CLI-0189?,positiva,512 EUR
+Q-448,¿Qué fuente de energía usa el Nodo Gamma?,positiva,100% Hidroeléctrica.
+Q-449,¿Qué Uptime mensual garantiza el SLA de EcoNode?,positiva,99.95%
+Q-450,¿En qué fecha empezó la relación comercial con el cliente CLI-0233?,positiva,2023-12-16
+Q-451,¿En qué departamento trabaja el empleado EMP-1392?,positiva,Ingeniería
+Q-452,¿Qué nivel de acceso tiene Carlos Llorens?,positiva,1
+Q-453,¿Cuál es la huella de carbono total de la empresa en toneladas?,negativa,No hay un cálculo de huella de carbono total en la documentación aportada.
+Q-454,¿Qué tipo de entidad es el cliente CLI-0036?,positiva,Empresa
+Q-455,¿Cuál es el MRR mensual del cliente CLI-0293?,positiva,7286 EUR
+Q-456,¿Cuál fue el beneficio neto de NexusLeaf en 2019?,negativa,"La empresa se fundó en 2022, no hay datos de 2019."
+Q-457,¿En qué departamento trabaja el empleado EMP-1332?,positiva,Ingeniería
+Q-458,¿Qué nivel de soporte le corresponde al cliente CLI-0302?,positiva,Dedicado (SLA 99.99%)
+Q-459,¿Cuál es el MRR mensual del cliente CLI-0241?,positiva,2736 EUR
+Q-460,¿En qué cloud público está alojada la infraestructura principal de NexusLeaf?,negativa,"NexusLeaf tiene nodos propios (Alfa, Beta, Gamma). El único uso de cloud público mencionado fue un respaldo temporal en AWS (GST-003)."
+Q-461,¿En qué fecha empezó la relación comercial con el cliente CLI-0123?,positiva,2023-10-14
+Q-462,¿Qué nivel de soporte le corresponde al cliente CLI-0153?,positiva,Dedicado (SLA 99.99%)
+Q-463,¿Cuántos kg de CO₂ generó el gasto GST-009?,positiva,0 kg
+Q-464,¿En qué fecha fue contratado el empleado con ID EMP-1207?,positiva,2023-09-27
+Q-465,¿Cuál es el puesto exacto del empleado con ID EMP-1286?,positiva,Especialista en Ventas
+Q-466,¿Qué nivel de soporte le corresponde al cliente CLI-0333?,positiva,Dedicado (SLA 99.99%)
+Q-467,¿Qué nivel de acceso tiene el empleado con ID EMP-0040?,positiva,2
+Q-468,¿Qué indemnización se paga si NexusLeaf sufre un ciberataque masivo?,negativa,"El SLA no especifica indemnizaciones concretas por ciberataques, solo menciona mal uso o ataques DDoS del lado del cliente como exclusiones."
+Q-469,¿Cuántos kg de CO₂ generó el gasto GST-004?,positiva,50 kg
+Q-470,¿Qué categoría tiene el gasto GST-004?,positiva,Operaciones
+Q-471,"El 2023-12-01T14:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Beta?",positiva,75%
+Q-472,¿Qué producto tiene contratado el cliente CLI-0022?,positiva,Bamboo DB
+Q-473,¿En qué departamento trabaja Paula López?,positiva,Recursos Humanos
+Q-474,¿Cuántos empleados fueron despedidos en 2023?,negativa,No hay registros de despidos en la base de datos de RRHH.
+Q-475,¿Qué nota obtuvo NexusLeaf en la auditoría de ciberseguridad de 2023?,negativa,No hay auditorías de ciberseguridad documentadas en el corpus.
+Q-476,¿Cuál es el puesto exacto del empleado con ID EMP-0923?,positiva,Arquitecto Cloud
+Q-477,¿En qué departamento trabaja el empleado EMP-1300?,positiva,Ingeniería
+Q-478,¿En qué fecha fue contratado el empleado con ID EMP-0147?,positiva,2023-05-05
+Q-479,¿En qué fecha fue contratado el empleado con ID EMP-0489?,positiva,2023-07-08
+Q-480,¿En qué fecha fue contratado el empleado con ID EMP-1623?,positiva,2023-05-30
+Q-481,¿Cuál fue el importe del gasto con ID GST-003?,positiva,4500 EUR
+Q-482,¿Qué producto tiene contratado el cliente CLI-0316?,positiva,EcoNode Serverless
+Q-483,¿Qué sistema de ticketing usa el equipo de Soporte Técnico?,negativa,No se menciona el sistema de ticketing en la documentación.
+Q-484,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Beta?",positiva,25%
+Q-485,"El 2023-12-01T08:00:00Z, ¿cuántos kW consumía el Nodo Beta?",positiva,120 kW
+Q-486,¿En qué fecha se registró el gasto con ID GST-004?,positiva,2023-04-12
+Q-487,¿Qué nivel de acceso tiene Marcos Martín?,positiva,2
+Q-488,¿En qué fecha empezó la relación comercial con el cliente CLI-0078?,positiva,2022-09-12
+Q-489,¿Cuál es el salario anual del empleado EMP-1160?,positiva,47791 EUR
+Q-490,¿Qué nivel de soporte le corresponde al cliente CLI-0018?,positiva,Dedicado (SLA 99.99%)
+Q-491,¿A qué proveedor corresponde el gasto GST-007?,positiva,TechSummit
+Q-492,¿Cuál es el puesto exacto del empleado con ID EMP-1976?,positiva,Data Scientist
+Q-493,¿Qué producto tiene contratado el cliente CLI-0231?,positiva,EcoNode Serverless
+Q-494,¿Qué producto tiene contratado el cliente CLI-0099?,positiva,Verdant LLM
+Q-495,¿Qué producto tiene contratado el cliente CLI-0057?,positiva,Bamboo DB
+Q-496,¿Qué nivel de soporte le corresponde al cliente CLI-0099?,positiva,Dedicado (SLA 99.99%)
+Q-497,"El 2023-12-01T14:00:00Z, ¿cuántos kW consumía el Nodo Beta?",positiva,210 kW
+Q-498,¿En qué fecha empezó la relación comercial con el cliente CLI-0085?,positiva,2023-02-25
+Q-499,¿Cuál es el MRR mensual del cliente CLI-0283?,positiva,28689 EUR
+Q-500,¿Existe un plan gratuito (free tier) para Bamboo DB?,negativa,No se menciona ningún plan gratuito en la documentación.
+Q-501,¿Qué nivel de soporte le corresponde al cliente CLI-0325?,positiva,Prioritario
+Q-502,¿Cuál es el MRR mensual del cliente CLI-0193?,positiva,2635 EUR
+Q-503,¿Cuál es el MRR mensual del cliente CLI-0070?,positiva,386 EUR
+Q-504,¿Cuál es el salario anual del empleado EMP-0007?,positiva,67609 EUR
+Q-505,¿A qué proveedor corresponde el gasto GST-006?,positiva,NordicCloud
+Q-506,"El 2023-12-02T02:00:00Z, ¿cuántos kW consumía el Nodo Beta?",positiva,90 kW
+Q-507,¿Qué nivel de soporte le corresponde al cliente CLI-0211?,positiva,Dedicado (SLA 99.99%)
+Q-508,¿En qué fecha fue contratado el empleado con ID EMP-0746?,positiva,2023-09-10
+Q-509,¿Cuál fue el beneficio neto de NexusLeaf en 2023?,positiva,605.000 EUR.
+Q-510,"El 2023-12-02T02:00:00Z, ¿cuál era el PUE instantáneo del Nodo Alfa?",positiva,1.03
+Q-511,¿Cuál es el puesto exacto del empleado con ID EMP-0154?,positiva,Técnico de Data Center
+Q-512,¿Cuál es el MRR mensual del cliente CLI-0202?,positiva,248 EUR
+Q-513,¿Cuál es el PUE del Nodo Beta?,positiva,1.12
+Q-514,"El 2023-12-01T20:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Beta?",positiva,60%
+Q-515,"El 2023-12-01T20:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Beta?",positiva,40%
+Q-516,¿Cuántos kg de CO₂ generó el gasto GST-002?,positiva,500 kg
+Q-517,¿En qué fecha empezó la relación comercial con el cliente CLI-0213?,positiva,2022-07-07
+Q-518,¿En qué fecha empezó la relación comercial con el cliente CLI-0059?,positiva,2024-01-18
+Q-519,¿Qué producto tiene contratado el cliente CLI-0100?,positiva,EcoNode + Bamboo DB
+Q-520,¿Cuál es el PUE del Nodo Alfa?,positiva,1.03
+Q-521,¿Cuál es el MRR mensual del cliente CLI-0257?,positiva,10041 EUR
+Q-522,¿Qué producto tiene contratado el cliente CLI-0250?,positiva,Verdant LLM
+Q-523,¿Cuál fue el gasto exacto en café para la oficina en marzo de 2023?,negativa,Los registros de gastos disponibles no detallan compras de café o consumibles de oficina.
+Q-524,¿En qué fecha empezó la relación comercial con el cliente CLI-0008?,positiva,2024-02-22
+Q-525,¿Qué categoría tiene el gasto GST-003?,positiva,Infraestructura
+Q-526,"El 2023-12-01T20:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Alfa?",positiva,95%
+Q-527,¿Qué nivel de acceso tiene el empleado con ID EMP-1415?,positiva,3
+Q-528,¿Qué pasa si NexusLeaf no cumple el Green SLA mensual?,positiva,El cliente recibe créditos de carbono compensatorios.
+Q-529,"El 2023-12-01T20:00:00Z, ¿cuántos kW consumía el Nodo Gamma?",positiva,65 kW
+Q-530,¿Qué fuente de energía usa el Nodo Alfa?,positiva,100% Geotérmica e Hidroeléctrica.
+Q-531,¿Qué nivel de acceso tiene el empleado con ID EMP-1941?,positiva,2
+Q-532,¿En qué fecha fue contratado el empleado con ID EMP-0318?,positiva,2024-04-25
+Q-533,"El 2023-12-01T14:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Alfa?",positiva,100%
+Q-534,¿Cuál es el MRR mensual del cliente CLI-0231?,positiva,4487 EUR
+Q-535,¿Qué tipo de entidad es el cliente CLI-0277?,positiva,Empresa
+Q-536,¿Qué nivel de soporte le corresponde al cliente CLI-0249?,positiva,Dedicado (SLA 99.99%)
+Q-537,¿Qué tipo de entidad es el cliente CLI-0310?,positiva,Empresa
+Q-538,"El 2023-12-01T08:00:00Z, ¿cuántos kW consumía el Nodo Gamma?",positiva,50 kW
+Q-539,¿En qué fecha empezó la relación comercial con el cliente CLI-0333?,positiva,2023-11-06
+Q-540,¿En qué departamento trabaja Paula Martínez?,positiva,Operaciones Verdes
+Q-541,¿Qué producto tiene contratado el cliente CLI-0320?,positiva,EcoNode Serverless
+Q-542,¿En qué fecha empezó la relación comercial con el cliente CLI-0115?,positiva,2023-12-12
+Q-543,"El 2023-12-01T20:00:00Z, ¿cuál era el PUE instantáneo del Nodo Beta?",positiva,1.14
+Q-544,¿Qué framework de machine learning usa el equipo de IA?,negativa,"No se especifica el framework de ML (PyTorch, TensorFlow, etc.) en la documentación."
+Q-545,¿Qué nivel de acceso tiene Paula Llorens?,positiva,3
+Q-546,¿Cuál es el salario anual del empleado EMP-1139?,positiva,28969 EUR
+Q-547,¿En qué departamento trabaja el empleado EMP-1237?,positiva,Ingeniería
+Q-548,¿Cuál es el MRR mensual del cliente CLI-0116?,positiva,7954 EUR
+Q-549,¿Qué porcentaje de ciclos de cómputo deben ser de energía renovable según el Green SLA?,positiva,Al menos el 95%.
+Q-550,"El 2023-12-01T14:00:00Z, ¿qué fuente de energía usaba el Nodo Alfa?",positiva,Geotermica
+Q-551,¿Qué producto tiene contratado el cliente CLI-0289?,positiva,EcoNode + Bamboo DB
+Q-552,¿Cuál es el puesto exacto del empleado con ID EMP-0026?,positiva,Auditor Green Ops
+Q-553,¿A quién pertenecen los datos vectorizados en Bamboo DB?,positiva,"Al cliente, que retiene la propiedad intelectual absoluta."
+Q-554,¿Qué tipo de entidad es el cliente CLI-0338?,positiva,Empresa
+Q-555,¿En qué fecha empezó la relación comercial con el cliente CLI-0024?,positiva,2023-12-16
+Q-556,¿Qué nivel de acceso tiene el empleado con ID EMP-1879?,positiva,2
+Q-557,¿Cuál es el puesto exacto del empleado con ID EMP-1545?,positiva,Desarrollador Senior
+Q-558,¿Cuál es el salario anual del empleado EMP-1310?,positiva,61374 EUR
+Q-559,¿Quién debe autorizar la extracción de código según el NDA?,positiva,"El CTO (Cozy Panda), de forma expresa y por escrito."
+Q-560,¿Cuántos kg de CO₂ generó el gasto GST-010?,positiva,0 kg
+Q-561,¿Cuál es el salario anual del empleado EMP-1970?,positiva,36104 EUR
+Q-562,¿Qué producto tiene contratado el cliente CLI-0218?,positiva,Bamboo DB
+Q-563,¿Tiene NexusLeaf alguna patent registrada?,negativa,No se menciona ninguna patente registrada en el corpus.
+Q-564,¿Cuál es el puesto exacto del empleado con ID EMP-1039?,positiva,Especialista en Refrigeración
+Q-565,¿En qué departamento trabaja el empleado EMP-1842?,positiva,Soporte Técnico
+Q-566,¿Cuál es el salario anual del empleado EMP-0684?,positiva,68596 EUR
+Q-567,¿Qué nivel de soporte le corresponde al cliente CLI-0049?,positiva,Dedicado (SLA 99.99%)
+Q-568,¿Cuál es el puesto exacto del empleado con ID EMP-1503?,positiva,Desarrollador Junior
+Q-569,¿En qué departamento trabaja el empleado EMP-1130?,positiva,Legal
+Q-570,¿Qué nivel de soporte le corresponde al cliente CLI-0144?,positiva,Dedicado (SLA 99.99%)
+Q-571,¿Qué es el Carbon Routing?,positiva,Algoritmo que redirige la computación hacia el centro de datos con menor intensidad de carbono en tiempo real.
+Q-572,¿En qué fecha fue contratado el empleado con ID EMP-0032?,positiva,2024-02-23
+Q-573,¿Qué producto tiene contratado el cliente CLI-0276?,positiva,Bamboo DB
+Q-574,¿Cuál es el salario anual del empleado EMP-1001?,positiva,56969 EUR
+Q-575,¿Qué producto tiene contratado el cliente CLI-0332?,positiva,EcoNode Serverless
+Q-576,"El 2023-12-02T02:00:00Z, ¿cuántos kW consumía el Nodo Gamma?",positiva,50 kW
+Q-577,¿Qué tipo de entidad es el cliente CLI-0346?,positiva,Organización Gubernamental
+Q-578,¿Qué tipo de entidad es el cliente CLI-0125?,positiva,Organización Gubernamental
+Q-579,¿Qué nivel de soporte le corresponde al cliente CLI-0327?,positiva,Prioritario
+Q-580,¿Qué producto tiene contratado el cliente CLI-0195?,positiva,Bamboo DB
+Q-581,¿Cuál es el puesto exacto del empleado con ID EMP-0922?,positiva,Especialista en Legal
+Q-582,¿Qué nivel de acceso tiene Ana Muñoz?,positiva,3
+Q-583,¿En qué fecha se registró el gasto con ID GST-003?,positiva,2023-03-05
+Q-584,"El 2023-12-01T20:00:00Z, ¿cuántos kW consumía el Nodo Beta?",positiva,165 kW
+Q-585,¿En qué departamento trabaja el empleado EMP-0015?,positiva,Ingeniería
+Q-586,¿Cuál es el sector de la entidad 'Ayuntamiento de Murcia'?,positiva,Administración Pública
+Q-587,¿Quién es el responsable de ventas de EcoNode?,negativa,No se menciona a un director o responsable de ventas específico en el organigrama directivo.
+Q-588,¿Qué tipo de entidad es el cliente CLI-0225?,positiva,Empresa
+Q-589,¿Qué coste por token tiene la API de Verdant LLM?,negativa,"No se menciona un coste por token, el modelo está optimizado para hardware local/privado."
+Q-590,¿Qué producto tiene contratado el cliente CLI-0117?,positiva,Verdant LLM + Bamboo DB
+Q-591,¿Cuándo se proyecta alcanzar el break-even operativo?,positiva,En el tercer trimestre de 2025.
+Q-592,¿Qué nivel de soporte le corresponde al cliente CLI-0102?,positiva,Dedicado (SLA 99.99%)
+Q-593,¿Qué nivel de soporte le corresponde al cliente CLI-0020?,positiva,Dedicado (SLA 99.99%)
+Q-594,¿Qué tipo de entidad es el cliente CLI-0144?,positiva,Empresa
+Q-595,¿Qué tipo de entidad es el cliente CLI-0261?,positiva,Organización Gubernamental
+Q-596,¿En qué fecha fue contratado el empleado con ID EMP-0191?,positiva,2022-04-27
+Q-597,¿En qué fecha empezó la relación comercial con el cliente CLI-0165?,positiva,2024-04-23
+Q-598,¿En qué fecha empezó la relación comercial con el cliente CLI-0318?,positiva,2024-02-25
+Q-599,¿Qué tipo de refrigeración usa el Nodo Beta?,positiva,Refrigeración líquida inmersiva.
+Q-600,¿En qué fecha empezó la relación comercial con el cliente CLI-0312?,positiva,2023-11-08
+Q-601,¿En qué fecha empezó la relación comercial con el cliente CLI-0254?,positiva,2023-12-08
+Q-602,¿Qué es Bamboo DB?,positiva,Una base de datos vectorial distribuida y ultraligera para aplicaciones RAG.
+Q-603,"El 2023-12-01T08:00:00Z, ¿qué fuente de energía usaba el Nodo Beta?",positiva,Solar
+Q-604,¿Cuánto se gastó en gastos de personal en 2023?,positiva,580.000 EUR.
+Q-605,¿Cuál es el MRR mensual del cliente CLI-0047?,positiva,2469 EUR
+Q-606,¿Qué herramienta original sirvió de núcleo para EcoNode?,positiva,Un script de orquestación de contenedores para optimizar el apagado de servidores inactivos.
+Q-607,¿Qué nivel de soporte le corresponde al cliente CLI-0131?,positiva,Dedicado (SLA 99.99%)
+Q-608,¿Cuál es el MRR mensual del cliente CLI-0040?,positiva,7559 EUR
+Q-609,¿Qué nivel de soporte le corresponde al cliente CLI-0319?,positiva,Dedicado (SLA 99.99%)
+Q-610,¿Qué producto tiene contratado el cliente CLI-0137?,positiva,EcoNode Serverless
+Q-611,¿Cuál es el email del DPO de NexusLeaf?,positiva,privacy@nexusleaf.es
+Q-612,¿Cuál es el puesto exacto del empleado con ID EMP-1434?,positiva,Especialista en Soporte Técnico
+Q-613,¿Cuál es el salario anual del empleado EMP-0562?,positiva,25616 EUR
+Q-614,¿En qué fecha fue contratado el empleado con ID EMP-0449?,positiva,2024-01-13
+Q-615,¿En qué ciudad está la sede central de NexusLeaf?,positiva,"Valencia, España"
+Q-616,¿Qué nivel de acceso tiene el empleado con ID EMP-0689?,positiva,3
+Q-617,¿Cuál es el salario anual del empleado EMP-1277?,positiva,72709 EUR
+Q-618,¿Qué tipo de entidad es el cliente CLI-0051?,positiva,Empresa
+Q-619,¿A qué proveedor corresponde el gasto GST-005?,positiva,OpenAI
+Q-620,¿Tiene NexusLeaf algún cliente en Asia?,negativa,No hay datos de geolocalización de clientes más allá del ámbito español o europeo.
+Q-621,¿En qué fecha empezó la relación comercial con el cliente CLI-0004?,positiva,2023-06-13
+Q-622,¿Existe un acuerdo de partnership con Microsoft?,negativa,No hay información sobre partnerships con Microsoft en la documentación.
+Q-623,¿Qué lenguaje de programación se usó para programar EcoNode?,negativa,No se especifica el lenguaje de programación en el corpus.
+Q-624,¿Cuál es el salario anual del empleado EMP-1386?,positiva,31291 EUR
+Q-625,¿Cuál es el MRR mensual del cliente CLI-0223?,positiva,6184 EUR
+Q-626,¿En qué fecha fue contratado el empleado con ID EMP-0665?,positiva,2022-08-26
+Q-627,¿En qué departamento trabaja el empleado EMP-0117?,positiva,Soporte Técnico
+Q-628,¿Cuántos kg de CO₂ generó el gasto GST-003?,positiva,210 kg
+Q-629,¿Qué nivel de soporte le corresponde al cliente CLI-0254?,positiva,Dedicado (SLA 99.99%)
+Q-630,¿Se usan los prompts de Verdant LLM para reentrenar el modelo?,positiva,"No, los procesos de inferencia se realizan en entornos aislados y se destruyen."
+Q-631,¿Cuál es el salario anual del empleado EMP-0175?,positiva,52703 EUR
+Q-632,¿Cuál es el salario anual del empleado EMP-1447?,positiva,71439 EUR
+Q-633,¿En qué fecha fue contratado el empleado con ID EMP-0900?,positiva,2022-07-21
+Q-634,¿En qué planta se encuentra la sede de NexusLeaf?,positiva,"Planta 4, Edificio B"
+Q-635,¿En qué fecha fue contratado el empleado con ID EMP-1394?,positiva,2022-06-19
+Q-636,¿En qué fecha fue contratado el empleado con ID EMP-1478?,positiva,2024-01-20
+Q-637,¿Cuál es el puesto exacto del empleado con ID EMP-0628?,positiva,Especialista en Ventas
+Q-638,¿Cuál es el salario anual del empleado EMP-1187?,positiva,29533 EUR
+Q-639,¿Qué nivel de acceso tiene el empleado con ID EMP-1252?,positiva,2
+Q-640,¿Cuál es la edad del CTO Cozy Panda?,negativa,No se dispone de datos de edad o fecha de nacimiento de los empleados.
+Q-641,¿Cuál fue el importe del gasto con ID GST-005?,positiva,1200 EUR
+Q-642,"El 2023-12-01T08:00:00Z, ¿qué porcentaje de CPU usaba el Nodo Gamma?",positiva,15%
+Q-643,¿Qué nivel de acceso tiene el empleado con ID EMP-1755?,positiva,2
+Q-644,¿Cuál es el precio de la acción de NexusLeaf en bolsa?,negativa,"NexusLeaf no cotiza en bolsa, es una S.L. de capital privado."
+Q-645,¿Cuántos kg de CO₂ generó el gasto GST-007?,positiva,100 kg
+Q-646,¿Qué tipo de entidad es el cliente CLI-0158?,positiva,Empresa
+Q-647,¿Qué protocolo de cifrado usa Bamboo DB en tránsito?,positiva,TLS 1.3.
+Q-648,¿Qué tipo de entidad es el cliente CLI-0148?,positiva,Organización Gubernamental
+Q-649,¿Cuál es el salario anual del empleado EMP-1929?,positiva,56600 EUR
+Q-650,¿En qué fecha se registró el gasto con ID GST-010?,positiva,2023-10-22
+Q-651,¿Cuál es el salario anual del empleado EMP-1088?,positiva,35257 EUR
+Q-652,"El 2023-12-01T14:00:00Z, ¿cuál era el PUE instantáneo del Nodo Beta?",positiva,1.10
+Q-653,¿Qué nivel de soporte le corresponde al cliente CLI-0206?,positiva,Dedicado (SLA 99.99%)
+Q-654,¿Cuál es el puesto exacto del empleado con ID EMP-0883?,positiva,Especialista en Recursos Humanos
+Q-655,"El 2023-12-01T14:00:00Z, ¿cuántos kW consumía el Nodo Gamma?",positiva,50 kW
+Q-656,¿Qué nivel de acceso tiene el empleado con ID EMP-0957?,positiva,3
+Q-657,¿Qué producto tiene contratado el cliente CLI-0240?,positiva,EcoNode + Bamboo DB
+Q-658,¿Cuánto cobra mensualmente el cliente CLI-9999?,negativa,Ese ID de cliente no existe en la base de datos.
+Q-659,¿Cuál es el salario anual del empleado EMP-0334?,positiva,48136 EUR
+Q-660,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Gamma?",positiva,5%
+Q-661,¿Qué nivel de soporte le corresponde al cliente CLI-0092?,positiva,Básico
+Q-662,¿Cuántos empleados tiene NexusLeaf en su oficina de Madrid?,negativa,"NexusLeaf no tiene oficina en Madrid, su sede es Valencia."
+Q-663,¿Cuánto se gastó en I+D en 2023?,positiva,150.000 EUR.
+Q-664,¿Qué nivel de acceso tiene el empleado con ID EMP-0302?,positiva,3
+Q-665,¿Cuál fue el importe del gasto con ID GST-009?,positiva,15500 EUR
+Q-666,¿En qué fecha fue contratado el empleado con ID EMP-0563?,positiva,2022-12-22
+Q-667,¿Dónde está ubicado el Nodo Delta?,negativa,"NexusLeaf solo tiene nodos Alfa, Beta y Gamma. No existe el Nodo Delta."
+Q-668,¿Cuál es el salario anual del empleado EMP-1702?,positiva,42003 EUR
+Q-669,¿En qué fecha empezó la relación comercial con el cliente CLI-0332?,positiva,2023-12-30
+Q-670,¿En qué fecha fue contratado el empleado con ID EMP-1269?,positiva,2022-06-03
+Q-671,¿Qué tipo de entidad es el cliente CLI-0176?,positiva,Organización Gubernamental
+Q-672,"El 2023-12-02T02:00:00Z, ¿qué porcentaje de GPU estaba usando el Nodo Beta?",positiva,15%
+Q-673,¿Cuál es el salario anual del empleado EMP-0409?,positiva,52712 EUR
+Q-674,¿Cuál es el puesto exacto del empleado con ID EMP-0932?,positiva,Especialista en Soporte Técnico
+Q-675,¿En qué fecha empezó la relación comercial con el cliente CLI-0180?,positiva,2022-06-29
+Q-676,¿En qué fecha empezó la relación comercial con el cliente CLI-0263?,positiva,2023-07-03
+Q-677,¿Qué nivel de acceso tiene el empleado con ID EMP-0234?,positiva,1
+Q-678,¿Cuál fue el importe del gasto con ID GST-008?,positiva,5000 EUR
+Q-679,¿En qué fecha fue contratado el empleado con ID EMP-0697?,positiva,2023-09-21
+Q-680,¿Qué nivel de soporte le corresponde al cliente CLI-0196?,positiva,Básico
+Q-681,¿En qué fecha se registró el gasto con ID GST-001?,positiva,2023-01-15
+Q-682,¿Qué nivel de acceso tiene el empleado con ID EMP-1219?,positiva,2
+Q-683,¿Cuál es el sector de la entidad 'Cloud Innovación S.L.'?,positiva,Salud
+Q-684,¿Cuál es el MRR mensual del cliente CLI-0255?,positiva,4647 EUR
+Q-685,¿Qué producto tiene contratado el cliente CLI-0261?,positiva,Bamboo DB
+Q-686,"El 2023-12-01T20:00:00Z, ¿qué fuente de energía usaba el Nodo Gamma?",positiva,Hidroelectrica
+Q-687,¿En qué fecha empezó la relación comercial con el cliente CLI-0151?,positiva,2023-05-20
+Q-688,¿Qué tipo de entidad es el cliente CLI-0050?,positiva,Organización Gubernamental
+Q-689,¿Cuál es el MRR mensual del cliente CLI-0145?,positiva,120 EUR
+Q-690,¿En qué departamento trabaja Carlos Navarro?,positiva,Soporte Técnico
+Q-691,¿Qué nivel de soporte le corresponde al cliente CLI-0233?,positiva,Dedicado (SLA 99.99%)
+Q-692,¿Qué tipo de entidad es el cliente CLI-0234?,positiva,Empresa
+Q-693,¿Qué nivel de acceso tiene el empleado con ID EMP-1888?,positiva,1
+Q-694,¿Cuántos años dura la obligación de confidencialidad del NDA después de dejar la empresa?,positiva,5 años.
+Q-695,¿Cuál es el salario anual del empleado EMP-1239?,positiva,42719 EUR
+Q-696,¿En qué fecha fue contratado el empleado con ID EMP-1903?,positiva,2023-11-15
+Q-697,"El 2023-12-01T14:00:00Z, ¿qué fuente de energía usaba el Nodo Gamma?",positiva,Hidroelectrica
+Q-698,¿Cuándo nació el proyecto NexusLeaf?,positiva,A finales de 2021 tras un hackathon de sostenibilidad tecnológica.
+Q-699,¿Qué producto tiene contratado el cliente CLI-0143?,positiva,Bamboo DB
+Q-700,¿Cuál es la responsabilidad principal del CFO?,positiva,"Gestión financiera, cumplimiento normativo y control de costes cloud."
+Q-701,¿Qué nivel de acceso tiene el empleado con ID EMP-1472?,positiva,1
+Q-702,¿Qué empresa compró NexusLeaf en 2024?,negativa,No hay constancia de ninguna adquisición.
+Q-703,¿Cuál es el salario anual del empleado EMP-0206?,positiva,51687 EUR
+Q-704,¿Cuál fue el importe del gasto con ID GST-006?,positiva,18000 EUR
+Q-705,¿Qué nivel de acceso tiene el empleado con ID EMP-0172?,positiva,4
+Q-706,¿Qué nivel de soporte le corresponde al cliente CLI-0042?,positiva,Prioritario
+Q-707,"El 2023-12-01T20:00:00Z, ¿cuál era el PUE instantáneo del Nodo Alfa?",positiva,1.03
+Q-708,¿Qué producto tiene contratado el cliente CLI-0015?,positiva,EcoNode + Bamboo DB
+Q-709,¿Se puede usar Verdant LLM en dispositivos móviles iOS?,negativa,"No se especifica compatibilidad con iOS, solo optimización para hardware local y reducción de VRAM."
+Q-710,¿En qué fecha fue contratado el empleado con ID EMP-0597?,positiva,2023-02-21
+Q-711,¿En qué departamento trabaja el empleado EMP-1273?,positiva,Ventas
+Q-712,¿En qué fecha empezó la relación comercial con el cliente CLI-0009?,positiva,2022-08-16
+Q-713,¿En qué fecha empezó la relación comercial con el cliente CLI-0212?,positiva,2022-08-14
+Q-714,¿Cuál es el salario anual del empleado EMP-0044?,positiva,51256 EUR
+Q-715,¿Qué nivel de acceso tiene el empleado con ID EMP-0390?,positiva,3
+Q-716,¿Qué categoría tiene el gasto GST-001?,positiva,Infraestructura

@@ -1,0 +1,43 @@
+# ── Bases de datos vectoriales (generadas por crear_bd.py) ──
+chroma_db/
+fragmentos_bm25.pkl
+
+# ── Modelos LLM (demasiado grandes para git) ──
+*.gguf
+*.bin
+*.safetensors
+../llama.cpp/
+
+# ── Resultados de benchmark (se regeneran) ──
+resultados_benchmark.csv
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Entornos virtuales ──
+venv/
+.venv/
+env/
+.env
+
+# ── IDEs ──
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Sistema operativo ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──
+*.log

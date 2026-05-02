@@ -1,0 +1,13 @@
+Fecha_Hora,Nodo,Uso_CPU_Porc,Uso_GPU_Porc,Consumo_kW,Origen_Energia,PUE_Instantaneo,Intensidad_Carbono_gCO2_kWh
+2023-12-01T08:00:00Z,Alfa,85,98,450,Geotermica,1.03,0.0
+2023-12-01T08:00:00Z,Beta,40,25,120,Solar,1.11,5.2
+2023-12-01T08:00:00Z,Gamma,15,5,50,Hidroelectrica,1.08,0.5
+2023-12-01T14:00:00Z,Alfa,90,100,480,Geotermica,1.03,0.0
+2023-12-01T14:00:00Z,Beta,75,60,210,Solar,1.10,2.1
+2023-12-01T14:00:00Z,Gamma,15,5,50,Hidroelectrica,1.08,0.5
+2023-12-01T20:00:00Z,Alfa,85,95,445,Geotermica,1.03,0.0
+2023-12-01T20:00:00Z,Beta,60,40,165,Eolica,1.14,12.5
+2023-12-01T20:00:00Z,Gamma,20,10,65,Hidroelectrica,1.08,0.5
+2023-12-02T02:00:00Z,Alfa,95,100,500,Geotermica,1.03,0.0
+2023-12-02T02:00:00Z,Beta,25,15,90,Eolica,1.15,18.3
+2023-12-02T02:00:00Z,Gamma,15,5,50,Hidroelectrica,1.08,0.5

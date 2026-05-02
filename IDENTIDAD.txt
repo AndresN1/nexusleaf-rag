@@ -1,0 +1,59 @@
+# NexusLeaf Technologies S.L. - Identidad Corporativa
+
+## 1. Ficha Técnica Corporativa
+* **Razón Social:** NexusLeaf Technologies S.L.
+* **CIF:** B-98765432 (Ficticio)
+* **Sede Central:** Distrito Digital, Avenida de las Cortes Valencianas 15, Edificio B, Planta 4, Valencia, España.
+* **Sector:** Infraestructura Cloud Sostenible y Desarrollo de Inteligencia Artificial.
+* **Año de Fundación:** 2022
+* **Lema:** *"Conectando el mañana, respetando el hoy."*
+
+---
+
+## 2. Misión, Visión y Valores
+
+### Misión
+Proveer infraestructura tecnológica de alto rendimiento y modelos de machine learning que minimicen la huella de carbono de las operaciones digitales empresariales.
+
+### Visión
+Convertirse en el estándar europeo de computación verde para 2030, demostrando que la innovación en IA no tiene por qué estar reñida con la responsabilidad ecológica.
+
+### Valores (Las 3 "T")
+* **Transparencia:** Código abierto en herramientas fundamentales y métricas de consumo energético públicas en tiempo real.
+* **Tenacidad:** Búsqueda constante de la eficiencia algorítmica y la optimización del hardware.
+* **Trascendencia:** Impacto positivo y directo en la comunidad tecnológica y el ecosistema local.
+
+---
+
+## 3. Organigrama y Equipo Clave
+
+| Puesto | Nombre | Responsabilidad Principal |
+| :--- | :--- | :--- |
+| **CEO** | Elena Casanova | Estrategia global, rondas de inversión y alianzas estratégicas. |
+| **CTO & Lead Architect** | Cozy Panda | Arquitectura de sistemas, diseño del pipeline de IA y liderazgo del equipo de desarrollo. |
+| **CFO** | Marcos Llorens | Gestión financiera, cumplimiento normativo y control de costes cloud. |
+| **Head of Green Ops** | Tariq Al-Fayed | Auditoría de eficiencia energética en los centros de datos. |
+
+---
+
+## 4. Catálogo de Productos y Servicios
+
+1.  **EcoNode Serverless:** Una plataforma de computación que enruta dinámicamente las cargas de trabajo hacia centros de datos alimentados por energía renovable en momentos de baja demanda eléctrica.
+2.  **Verdant LLM:** Un modelo de lenguaje privado de 7 mil millones de parámetros (7B), entrenado específicamente para auditorías legales y financieras. Optimizado para hardware local con un consumo de VRAM reducido en un 40%.
+3.  **Bamboo DB:** Una base de datos vectorial distribuida y ultraligera, diseñada para aplicaciones de generación aumentada por recuperación (RAG) con latencia de milisegundos.
+
+---
+
+## 5. Tono de Marca y Directrices de Comunicación
+
+* **Voz:** Profesional, analítica y accesible.
+* **Formalidad:** * Uso de **"usted"** para comunicaciones institucionales y de ventas.
+    * Uso de **"tú"** en documentación técnica, repositorios y soporte a desarrolladores.
+* **Prohibiciones:** Evitar el *greenwashing* (ecopostureo) o promesas exageradas. Los datos técnicos deben presentarse siempre con rigor empírico.
+
+---
+
+## 6. Historia de la Empresa
+El proyecto nació a finales de 2021 tras un hackathon de sostenibilidad tecnológica. Lo que comenzó como un script de orquestación de contenedores para optimizar el apagado de servidores inactivos evolucionó hasta convertirse en el núcleo de la plataforma **EcoNode**. 
+
+En marzo de 2023, la empresa cerró una ronda semilla de **1,2 millones de euros** liderada por el fondo *Iberia Tech Ventures*, lo que permitió la expansión del equipo de ingeniería y la creación de la división de modelos de lenguaje eficientes que hoy lidera el mercado de IA sostenible.

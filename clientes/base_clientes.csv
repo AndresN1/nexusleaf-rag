@@ -1,0 +1,351 @@
+ID_Cliente,Nombre_Entidad,Tipo,Sector,Producto_Contratado,Fecha_Inicio,MRR_EUR,Nivel_Soporte
+CLI-0001,Verde Soluciones S.L.,Empresa,Finanzas,EcoNode Serverless,2022-04-22,10895,Dedicado (SLA 99.99%)
+CLI-0002,Marta Gómez Navarro,Particular,N/A,Verdant LLM,2023-08-09,187,Básico
+CLI-0003,Cloud Data S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2022-05-27,3621,Prioritario
+CLI-0004,Agencia Estatal de Valencia,Organización Gubernamental,Administración Pública,Verdant LLM,2023-06-13,36032,Dedicado (SLA 99.99%)
+CLI-0005,Instituto Nacional de Bilbao,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2024-01-06,2785,Prioritario
+CLI-0006,Innovación Verde S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2022-08-25,4664,Prioritario
+CLI-0007,Lucía García Gómez,Particular,N/A,EcoNode + Bamboo DB,2022-06-27,395,Básico
+CLI-0008,Sistemas Cloud S.L.,Empresa,Retail,EcoNode + Bamboo DB,2024-02-22,10133,Dedicado (SLA 99.99%)
+CLI-0009,Verde Innovación S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2022-08-16,7324,Dedicado (SLA 99.99%)
+CLI-0010,Laura Sánchez López,Particular,N/A,Verdant LLM,2022-05-23,61,Básico
+CLI-0011,Sistemas Verde S.L.,Empresa,Salud,EcoNode + Bamboo DB,2024-05-01,14613,Dedicado (SLA 99.99%)
+CLI-0012,Tech Cloud S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2024-01-15,8921,Dedicado (SLA 99.99%)
+CLI-0013,Global Tech S.L.,Empresa,Salud,Bamboo DB,2022-08-24,10707,Dedicado (SLA 99.99%)
+CLI-0014,Data Data S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2023-11-15,680,Básico
+CLI-0015,Ministerio de Valencia,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2024-02-20,3785,Prioritario
+CLI-0016,Soluciones Soluciones S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2024-04-19,8029,Dedicado (SLA 99.99%)
+CLI-0017,Data Sistemas S.L.,Empresa,Tecnología,Bamboo DB,2023-02-13,7094,Dedicado (SLA 99.99%)
+CLI-0018,Verde Data S.L.,Empresa,Salud,EcoNode + Bamboo DB,2023-10-11,5085,Dedicado (SLA 99.99%)
+CLI-0019,Elena Muñoz Muñoz,Particular,N/A,Verdant LLM,2022-09-17,80,Básico
+CLI-0020,Cloud Sistemas S.L.,Empresa,Retail,Bamboo DB,2024-02-06,10593,Dedicado (SLA 99.99%)
+CLI-0021,Ayuntamiento de Madrid,Organización Gubernamental,Administración Pública,Verdant LLM,2023-05-27,25766,Dedicado (SLA 99.99%)
+CLI-0022,Cloud Cloud S.L.,Empresa,Salud,Bamboo DB,2024-02-19,14625,Dedicado (SLA 99.99%)
+CLI-0023,Soluciones Verde S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-04-25,10927,Dedicado (SLA 99.99%)
+CLI-0024,Data Tech S.L.,Empresa,Finanzas,EcoNode Serverless,2023-12-16,575,Básico
+CLI-0025,Cloud Sistemas S.L.,Empresa,Tecnología,Verdant LLM,2022-10-18,13300,Dedicado (SLA 99.99%)
+CLI-0026,Tech Verde S.L.,Empresa,Salud,Verdant LLM,2022-05-01,13084,Dedicado (SLA 99.99%)
+CLI-0027,Global Data S.L.,Empresa,Salud,EcoNode + Bamboo DB,2023-08-06,5386,Dedicado (SLA 99.99%)
+CLI-0028,Tech Soluciones S.L.,Empresa,Retail,Bamboo DB,2024-03-31,2175,Prioritario
+CLI-0029,Agencia Estatal de Málaga,Organización Gubernamental,Administración Pública,Verdant LLM,2022-07-27,43886,Dedicado (SLA 99.99%)
+CLI-0030,Sistemas Innovación S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-07-10,2839,Prioritario
+CLI-0031,Carmen Llorens Llorens,Particular,N/A,EcoNode Serverless,2023-04-01,237,Básico
+CLI-0032,Global Verde S.L.,Empresa,Educación,EcoNode Serverless,2023-10-20,6394,Dedicado (SLA 99.99%)
+CLI-0033,Instituto Nacional de Córdoba,Organización Gubernamental,Administración Pública,EcoNode Serverless,2024-03-19,12366,Dedicado (SLA 99.99%)
+CLI-0034,Sistemas Verde S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2022-10-31,4200,Prioritario
+CLI-0035,Tech Data S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2024-03-14,5923,Dedicado (SLA 99.99%)
+CLI-0036,Innovación Verde S.L.,Empresa,Finanzas,EcoNode Serverless,2023-04-19,12056,Dedicado (SLA 99.99%)
+CLI-0037,Sistemas Cloud S.L.,Empresa,Educación,Verdant LLM,2023-04-30,12299,Dedicado (SLA 99.99%)
+CLI-0038,Sistemas Cloud S.L.,Empresa,Educación,Verdant LLM,2023-03-29,10165,Dedicado (SLA 99.99%)
+CLI-0039,Instituto Nacional de Málaga,Organización Gubernamental,Administración Pública,Verdant LLM,2022-04-12,42708,Dedicado (SLA 99.99%)
+CLI-0040,Tech Global S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2022-08-26,7559,Dedicado (SLA 99.99%)
+CLI-0041,Sistemas Sistemas S.L.,Empresa,Educación,Verdant LLM,2023-04-01,3430,Prioritario
+CLI-0042,Verde Tech S.L.,Empresa,Salud,Bamboo DB,2024-04-19,2255,Prioritario
+CLI-0043,Data Sistemas S.L.,Empresa,Educación,EcoNode + Bamboo DB,2023-10-10,8956,Dedicado (SLA 99.99%)
+CLI-0044,Sistemas Soluciones S.L.,Empresa,Educación,EcoNode + Bamboo DB,2023-06-21,13677,Dedicado (SLA 99.99%)
+CLI-0045,Instituto Nacional de Málaga,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2022-06-08,37752,Dedicado (SLA 99.99%)
+CLI-0046,Verde Cloud S.L.,Empresa,Tecnología,EcoNode Serverless,2024-02-12,12973,Dedicado (SLA 99.99%)
+CLI-0047,Global Sistemas S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2022-10-19,2469,Prioritario
+CLI-0048,Agencia Estatal de Zaragoza,Organización Gubernamental,Administración Pública,Bamboo DB,2023-11-23,20506,Dedicado (SLA 99.99%)
+CLI-0049,Instituto Nacional de Valencia,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-03-03,34286,Dedicado (SLA 99.99%)
+CLI-0050,Ministerio de Bilbao,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-09-27,35019,Dedicado (SLA 99.99%)
+CLI-0051,Sistemas Tech S.L.,Empresa,Retail,Bamboo DB,2022-08-15,13525,Dedicado (SLA 99.99%)
+CLI-0052,Agencia Estatal de Valencia,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2023-08-11,16165,Dedicado (SLA 99.99%)
+CLI-0053,Cloud Innovación S.L.,Empresa,Salud,Bamboo DB,2023-04-01,10496,Dedicado (SLA 99.99%)
+CLI-0054,Soluciones Sistemas S.L.,Empresa,Salud,Verdant LLM,2023-11-09,9009,Dedicado (SLA 99.99%)
+CLI-0055,Innovación Data S.L.,Empresa,Salud,EcoNode Serverless,2023-12-18,2665,Prioritario
+CLI-0056,Data Data S.L.,Empresa,Salud,EcoNode Serverless,2022-10-28,11745,Dedicado (SLA 99.99%)
+CLI-0057,Ministerio de Zaragoza,Organización Gubernamental,Administración Pública,Bamboo DB,2023-07-23,9529,Dedicado (SLA 99.99%)
+CLI-0058,Innovación Cloud S.L.,Empresa,Tecnología,EcoNode Serverless,2023-07-02,1956,Prioritario
+CLI-0059,Marta Al-Fayed Martínez,Particular,N/A,Verdant LLM,2024-01-18,107,Básico
+CLI-0060,Global Soluciones S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-06-12,1654,Prioritario
+CLI-0061,Sistemas Verde S.L.,Empresa,Retail,EcoNode + Bamboo DB,2022-10-04,3936,Prioritario
+CLI-0062,Instituto Nacional de Málaga,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2024-04-26,7392,Dedicado (SLA 99.99%)
+CLI-0063,Data Global S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2022-04-02,1854,Prioritario
+CLI-0064,Verde Verde S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2024-02-24,7220,Dedicado (SLA 99.99%)
+CLI-0065,Data Global S.L.,Empresa,Educación,EcoNode Serverless,2022-11-26,13112,Dedicado (SLA 99.99%)
+CLI-0066,Sistemas Tech S.L.,Empresa,Educación,EcoNode Serverless,2023-09-20,7029,Dedicado (SLA 99.99%)
+CLI-0067,Juan Martínez Al-Fayed,Particular,N/A,EcoNode + Bamboo DB,2022-05-05,422,Básico
+CLI-0068,Data Cloud S.L.,Empresa,Finanzas,Bamboo DB,2022-07-06,13251,Dedicado (SLA 99.99%)
+CLI-0069,Data Soluciones S.L.,Empresa,Retail,Verdant LLM,2024-03-16,8314,Dedicado (SLA 99.99%)
+CLI-0070,Héctor Díaz Jiménez,Particular,N/A,Verdant LLM,2022-05-25,386,Básico
+CLI-0071,Marta Gómez Alonso,Particular,N/A,EcoNode + Bamboo DB,2023-05-03,233,Básico
+CLI-0072,Agencia Estatal de Barcelona,Organización Gubernamental,Administración Pública,EcoNode Serverless,2024-04-28,46845,Dedicado (SLA 99.99%)
+CLI-0073,Global Verde S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2022-10-02,10117,Dedicado (SLA 99.99%)
+CLI-0074,Sistemas Data S.L.,Empresa,Finanzas,EcoNode Serverless,2023-08-20,7934,Dedicado (SLA 99.99%)
+CLI-0075,Cozy Casanova Pérez,Particular,N/A,Bamboo DB,2023-08-14,225,Básico
+CLI-0076,Marta Moreno Sánchez,Particular,N/A,Bamboo DB,2022-05-26,385,Básico
+CLI-0077,Global Tech S.L.,Empresa,Salud,EcoNode + Bamboo DB,2022-09-09,14049,Dedicado (SLA 99.99%)
+CLI-0078,Isabel Sánchez Alonso,Particular,N/A,Bamboo DB,2022-09-12,497,Básico
+CLI-0079,Cloud Soluciones S.L.,Empresa,Retail,EcoNode Serverless,2024-01-20,7919,Dedicado (SLA 99.99%)
+CLI-0080,Sistemas Innovación S.L.,Empresa,Educación,Verdant LLM,2022-08-01,5682,Dedicado (SLA 99.99%)
+CLI-0081,Cloud Innovación S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2022-12-17,4931,Prioritario
+CLI-0082,Global Global S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2022-11-29,13246,Dedicado (SLA 99.99%)
+CLI-0083,Ministerio de Barcelona,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2023-12-13,11803,Dedicado (SLA 99.99%)
+CLI-0084,Global Innovación S.L.,Empresa,Educación,EcoNode + Bamboo DB,2023-07-13,10559,Dedicado (SLA 99.99%)
+CLI-0085,Ana Álvarez Díaz,Particular,N/A,Bamboo DB,2023-02-25,190,Básico
+CLI-0086,Sistemas Cloud S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2023-09-06,6949,Dedicado (SLA 99.99%)
+CLI-0087,Sergio Torres Gutiérrez,Particular,N/A,EcoNode Serverless,2023-04-15,84,Básico
+CLI-0088,Sistemas Innovación S.L.,Empresa,Tecnología,Verdant LLM,2022-12-18,4119,Prioritario
+CLI-0089,Innovación Sistemas S.L.,Empresa,Finanzas,EcoNode Serverless,2022-11-17,4608,Prioritario
+CLI-0090,Tech Verde S.L.,Empresa,Tecnología,EcoNode Serverless,2023-03-30,4291,Prioritario
+CLI-0091,Verde Soluciones S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2023-03-21,7609,Dedicado (SLA 99.99%)
+CLI-0092,David Panda Llorens,Particular,N/A,Verdant LLM,2023-08-27,223,Básico
+CLI-0093,Verde Innovación S.L.,Empresa,Retail,EcoNode + Bamboo DB,2022-05-29,12869,Dedicado (SLA 99.99%)
+CLI-0094,Sistemas Verde S.L.,Empresa,Salud,Bamboo DB,2023-05-03,10105,Dedicado (SLA 99.99%)
+CLI-0095,Cloud Verde S.L.,Empresa,Tecnología,Verdant LLM,2023-07-29,4927,Prioritario
+CLI-0096,Cloud Soluciones S.L.,Empresa,Retail,EcoNode + Bamboo DB,2023-12-25,5154,Dedicado (SLA 99.99%)
+CLI-0097,Global Innovación S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2022-07-04,4420,Prioritario
+CLI-0098,Agencia Estatal de Murcia,Organización Gubernamental,Administración Pública,Bamboo DB,2024-03-28,49675,Dedicado (SLA 99.99%)
+CLI-0099,Global Data S.L.,Empresa,Tecnología,Verdant LLM,2022-04-13,7716,Dedicado (SLA 99.99%)
+CLI-0100,Verde Data S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2022-11-12,13760,Dedicado (SLA 99.99%)
+CLI-0101,Data Verde S.L.,Empresa,Finanzas,Verdant LLM,2023-01-19,5917,Dedicado (SLA 99.99%)
+CLI-0102,Agencia Estatal de Barcelona,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2023-09-13,31782,Dedicado (SLA 99.99%)
+CLI-0103,Agencia Estatal de Sevilla,Organización Gubernamental,Administración Pública,Bamboo DB,2024-04-01,45555,Dedicado (SLA 99.99%)
+CLI-0104,Ministerio de Bilbao,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-06-14,33957,Dedicado (SLA 99.99%)
+CLI-0105,Tech Cloud S.L.,Empresa,Finanzas,Verdant LLM,2023-03-03,1929,Prioritario
+CLI-0106,Soluciones Soluciones S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2023-04-11,13926,Dedicado (SLA 99.99%)
+CLI-0107,Cloud Soluciones S.L.,Empresa,Educación,EcoNode + Bamboo DB,2023-09-07,2919,Prioritario
+CLI-0108,Soluciones Tech S.L.,Empresa,Tecnología,Verdant LLM,2022-12-23,10187,Dedicado (SLA 99.99%)
+CLI-0109,Ministerio de Málaga,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2022-08-22,8257,Dedicado (SLA 99.99%)
+CLI-0110,Ayuntamiento de Alicante,Organización Gubernamental,Administración Pública,Verdant LLM,2023-03-14,49071,Dedicado (SLA 99.99%)
+CLI-0111,Data Sistemas S.L.,Empresa,Retail,Verdant LLM,2023-09-30,676,Básico
+CLI-0112,Cloud Sistemas S.L.,Empresa,Salud,EcoNode + Bamboo DB,2022-05-03,8004,Dedicado (SLA 99.99%)
+CLI-0113,Data Innovación S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-02-05,3558,Prioritario
+CLI-0114,Cloud Sistemas S.L.,Empresa,Salud,EcoNode Serverless,2023-05-10,6333,Dedicado (SLA 99.99%)
+CLI-0115,Universidad de Sevilla,Organización Gubernamental,Administración Pública,Bamboo DB,2023-12-12,49158,Dedicado (SLA 99.99%)
+CLI-0116,Global Global S.L.,Empresa,Educación,Verdant LLM,2022-05-23,7954,Dedicado (SLA 99.99%)
+CLI-0117,Sistemas Data S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-01-31,7370,Dedicado (SLA 99.99%)
+CLI-0118,Innovación Verde S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2022-10-04,2680,Prioritario
+CLI-0119,Data Verde S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2022-07-22,8271,Dedicado (SLA 99.99%)
+CLI-0120,Soluciones Sistemas S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2023-10-15,11000,Dedicado (SLA 99.99%)
+CLI-0121,Innovación Soluciones S.L.,Empresa,Tecnología,Verdant LLM,2022-11-16,6858,Dedicado (SLA 99.99%)
+CLI-0122,Global Cloud S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2024-01-29,3801,Prioritario
+CLI-0123,Soluciones Verde S.L.,Empresa,Salud,Verdant LLM,2023-10-14,2580,Prioritario
+CLI-0124,Data Global S.L.,Empresa,Salud,Verdant LLM,2024-03-09,3630,Prioritario
+CLI-0125,Universidad de Málaga,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-04-26,39593,Dedicado (SLA 99.99%)
+CLI-0126,Ministerio de Zaragoza,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2023-11-02,13311,Dedicado (SLA 99.99%)
+CLI-0127,Instituto Nacional de Alicante,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2023-01-25,41335,Dedicado (SLA 99.99%)
+CLI-0128,Ayuntamiento de Zaragoza,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2023-03-26,4301,Prioritario
+CLI-0129,Sistemas Global S.L.,Empresa,Retail,EcoNode + Bamboo DB,2022-04-23,13016,Dedicado (SLA 99.99%)
+CLI-0130,Data Global S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2022-10-12,11233,Dedicado (SLA 99.99%)
+CLI-0131,Tech Sistemas S.L.,Empresa,Tecnología,Verdant LLM,2024-04-05,8964,Dedicado (SLA 99.99%)
+CLI-0132,Tech Global S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-08-25,4316,Prioritario
+CLI-0133,Soluciones Tech S.L.,Empresa,Tecnología,EcoNode Serverless,2024-01-26,4339,Prioritario
+CLI-0134,Global Tech S.L.,Empresa,Tecnología,Bamboo DB,2024-03-20,8137,Dedicado (SLA 99.99%)
+CLI-0135,Cloud Innovación S.L.,Empresa,Educación,EcoNode Serverless,2023-08-26,1034,Prioritario
+CLI-0136,Instituto Nacional de Madrid,Organización Gubernamental,Administración Pública,Verdant LLM,2023-11-21,39019,Dedicado (SLA 99.99%)
+CLI-0137,Data Data S.L.,Empresa,Retail,EcoNode Serverless,2022-11-01,10904,Dedicado (SLA 99.99%)
+CLI-0138,Global Verde S.L.,Empresa,Educación,Bamboo DB,2022-09-12,13350,Dedicado (SLA 99.99%)
+CLI-0139,Sistemas Data S.L.,Empresa,Salud,EcoNode + Bamboo DB,2022-06-07,8150,Dedicado (SLA 99.99%)
+CLI-0140,Agencia Estatal de Málaga,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-11-23,16279,Dedicado (SLA 99.99%)
+CLI-0141,Ministerio de Madrid,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2023-02-28,49632,Dedicado (SLA 99.99%)
+CLI-0142,Verde Global S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2023-09-22,4009,Prioritario
+CLI-0143,Soluciones Global S.L.,Empresa,Educación,Bamboo DB,2024-03-25,8546,Dedicado (SLA 99.99%)
+CLI-0144,Global Tech S.L.,Empresa,Educación,Verdant LLM,2023-10-21,11908,Dedicado (SLA 99.99%)
+CLI-0145,Sofía Martínez López,Particular,N/A,Verdant LLM + Bamboo DB,2024-01-02,120,Básico
+CLI-0146,Tech Verde S.L.,Empresa,Salud,EcoNode Serverless,2023-09-02,7007,Dedicado (SLA 99.99%)
+CLI-0147,Cloud Data S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-07-29,6476,Dedicado (SLA 99.99%)
+CLI-0148,Agencia Estatal de Alicante,Organización Gubernamental,Administración Pública,Verdant LLM,2023-06-05,27307,Dedicado (SLA 99.99%)
+CLI-0149,Innovación Global S.L.,Empresa,Finanzas,Verdant LLM,2024-02-13,2094,Prioritario
+CLI-0150,Soluciones Cloud S.L.,Empresa,Tecnología,EcoNode Serverless,2023-02-09,7757,Dedicado (SLA 99.99%)
+CLI-0151,Ministerio de Barcelona,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2023-05-20,34102,Dedicado (SLA 99.99%)
+CLI-0152,Cloud Innovación S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2023-03-12,5389,Dedicado (SLA 99.99%)
+CLI-0153,Tech Soluciones S.L.,Empresa,Finanzas,Verdant LLM,2023-10-19,13757,Dedicado (SLA 99.99%)
+CLI-0154,Sistemas Global S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2022-05-02,1515,Prioritario
+CLI-0155,Sistemas Innovación S.L.,Empresa,Retail,EcoNode + Bamboo DB,2024-01-09,14022,Dedicado (SLA 99.99%)
+CLI-0156,Global Tech S.L.,Empresa,Salud,Bamboo DB,2022-08-27,4578,Prioritario
+CLI-0157,Agencia Estatal de Zaragoza,Organización Gubernamental,Administración Pública,Bamboo DB,2023-08-04,42584,Dedicado (SLA 99.99%)
+CLI-0158,Cloud Global S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-12-23,9953,Dedicado (SLA 99.99%)
+CLI-0159,Cloud Soluciones S.L.,Empresa,Educación,Verdant LLM,2023-09-17,13494,Dedicado (SLA 99.99%)
+CLI-0160,Sistemas Sistemas S.L.,Empresa,Finanzas,EcoNode Serverless,2023-06-04,2413,Prioritario
+CLI-0161,María Hernández Moreno,Particular,N/A,Bamboo DB,2022-06-29,70,Básico
+CLI-0162,Soluciones Global S.L.,Empresa,Finanzas,Verdant LLM,2022-10-06,8151,Dedicado (SLA 99.99%)
+CLI-0163,Global Tech S.L.,Empresa,Salud,EcoNode + Bamboo DB,2024-01-10,12716,Dedicado (SLA 99.99%)
+CLI-0164,Agencia Estatal de Bilbao,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-07-19,8952,Dedicado (SLA 99.99%)
+CLI-0165,Data Sistemas S.L.,Empresa,Finanzas,Verdant LLM,2024-04-23,6971,Dedicado (SLA 99.99%)
+CLI-0166,Innovación Sistemas S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2022-05-29,13287,Dedicado (SLA 99.99%)
+CLI-0167,Cloud Global S.L.,Empresa,Retail,Bamboo DB,2022-08-02,12094,Dedicado (SLA 99.99%)
+CLI-0168,Agencia Estatal de Valencia,Organización Gubernamental,Administración Pública,Verdant LLM,2023-09-10,21853,Dedicado (SLA 99.99%)
+CLI-0169,Ayuntamiento de Zaragoza,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-10-26,48824,Dedicado (SLA 99.99%)
+CLI-0170,Verde Sistemas S.L.,Empresa,Educación,EcoNode + Bamboo DB,2022-05-15,12359,Dedicado (SLA 99.99%)
+CLI-0171,Cloud Sistemas S.L.,Empresa,Educación,Verdant LLM,2022-07-25,5627,Dedicado (SLA 99.99%)
+CLI-0172,Isabel Navarro Llorens,Particular,N/A,EcoNode Serverless,2022-12-09,254,Básico
+CLI-0173,Soluciones Cloud S.L.,Empresa,Finanzas,EcoNode Serverless,2023-06-12,6375,Dedicado (SLA 99.99%)
+CLI-0174,Universidad de Alicante,Organización Gubernamental,Administración Pública,EcoNode Serverless,2022-08-02,8713,Dedicado (SLA 99.99%)
+CLI-0175,Innovación Verde S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2023-12-06,11070,Dedicado (SLA 99.99%)
+CLI-0176,Agencia Estatal de Zaragoza,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-06-15,3791,Prioritario
+CLI-0177,Cloud Cloud S.L.,Empresa,Tecnología,EcoNode Serverless,2022-06-11,2096,Prioritario
+CLI-0178,Soluciones Global S.L.,Empresa,Retail,EcoNode Serverless,2023-05-17,2688,Prioritario
+CLI-0179,Cloud Data S.L.,Empresa,Tecnología,EcoNode Serverless,2022-06-28,2156,Prioritario
+CLI-0180,Innovación Data S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2022-06-29,7337,Dedicado (SLA 99.99%)
+CLI-0181,Soluciones Data S.L.,Empresa,Retail,Verdant LLM,2023-11-06,1842,Prioritario
+CLI-0182,Tech Soluciones S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-03-15,5355,Dedicado (SLA 99.99%)
+CLI-0183,Data Sistemas S.L.,Empresa,Salud,EcoNode + Bamboo DB,2023-04-22,10351,Dedicado (SLA 99.99%)
+CLI-0184,Cloud Data S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-03-30,2829,Prioritario
+CLI-0185,Innovación Soluciones S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2022-04-29,10111,Dedicado (SLA 99.99%)
+CLI-0186,Sistemas Cloud S.L.,Empresa,Finanzas,Bamboo DB,2023-06-06,7784,Dedicado (SLA 99.99%)
+CLI-0187,Verde Global S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2022-10-04,10771,Dedicado (SLA 99.99%)
+CLI-0188,Tech Soluciones S.L.,Empresa,Finanzas,Verdant LLM,2022-05-26,11034,Dedicado (SLA 99.99%)
+CLI-0189,Cloud Innovación S.L.,Empresa,Salud,Bamboo DB,2023-11-19,512,Básico
+CLI-0190,Global Sistemas S.L.,Empresa,Finanzas,Bamboo DB,2023-11-17,10340,Dedicado (SLA 99.99%)
+CLI-0191,Soluciones Soluciones S.L.,Empresa,Retail,EcoNode + Bamboo DB,2023-07-31,1118,Prioritario
+CLI-0192,Data Soluciones S.L.,Empresa,Finanzas,Verdant LLM,2023-02-02,13536,Dedicado (SLA 99.99%)
+CLI-0193,Sistemas Innovación S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2023-10-24,2635,Prioritario
+CLI-0194,Data Verde S.L.,Empresa,Finanzas,Verdant LLM,2023-07-01,634,Básico
+CLI-0195,Soluciones Innovación S.L.,Empresa,Tecnología,Bamboo DB,2022-12-23,652,Básico
+CLI-0196,José Sánchez Martín,Particular,N/A,Verdant LLM + Bamboo DB,2022-10-04,236,Básico
+CLI-0197,Universidad de Barcelona,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-04-06,20104,Dedicado (SLA 99.99%)
+CLI-0198,Innovación Tech S.L.,Empresa,Finanzas,EcoNode Serverless,2024-04-18,665,Básico
+CLI-0199,Global Global S.L.,Empresa,Educación,EcoNode + Bamboo DB,2022-05-07,5227,Dedicado (SLA 99.99%)
+CLI-0200,Universidad de Madrid,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-09-24,16765,Dedicado (SLA 99.99%)
+CLI-0201,Agencia Estatal de Murcia,Organización Gubernamental,Administración Pública,Verdant LLM,2022-11-21,27221,Dedicado (SLA 99.99%)
+CLI-0202,Carmen Domínguez Moreno,Particular,N/A,EcoNode + Bamboo DB,2022-12-27,248,Básico
+CLI-0203,Global Innovación S.L.,Empresa,Salud,EcoNode + Bamboo DB,2022-06-29,4296,Prioritario
+CLI-0204,Universidad de Bilbao,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-02-26,40394,Dedicado (SLA 99.99%)
+CLI-0205,Data Verde S.L.,Empresa,Educación,EcoNode + Bamboo DB,2024-03-27,777,Básico
+CLI-0206,Ministerio de Sevilla,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2024-04-29,48250,Dedicado (SLA 99.99%)
+CLI-0207,Universidad de Córdoba,Organización Gubernamental,Administración Pública,EcoNode Serverless,2023-06-03,28283,Dedicado (SLA 99.99%)
+CLI-0208,Sistemas Tech S.L.,Empresa,Retail,Bamboo DB,2023-03-03,8232,Dedicado (SLA 99.99%)
+CLI-0209,Tech Innovación S.L.,Empresa,Retail,Bamboo DB,2024-04-25,8107,Dedicado (SLA 99.99%)
+CLI-0210,Ayuntamiento de Sevilla,Organización Gubernamental,Administración Pública,Verdant LLM,2022-11-10,45736,Dedicado (SLA 99.99%)
+CLI-0211,Instituto Nacional de Córdoba,Organización Gubernamental,Administración Pública,Bamboo DB,2023-02-22,15554,Dedicado (SLA 99.99%)
+CLI-0212,Verde Sistemas S.L.,Empresa,Salud,Verdant LLM,2022-08-14,4177,Prioritario
+CLI-0213,Carlos Al-Fayed Gómez,Particular,N/A,EcoNode + Bamboo DB,2022-07-07,338,Básico
+CLI-0214,Soluciones Sistemas S.L.,Empresa,Tecnología,Bamboo DB,2022-04-25,1271,Prioritario
+CLI-0215,Data Innovación S.L.,Empresa,Salud,Verdant LLM,2024-04-14,13675,Dedicado (SLA 99.99%)
+CLI-0216,Tech Cloud S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-06-06,6734,Dedicado (SLA 99.99%)
+CLI-0217,Ministerio de Zaragoza,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2022-08-14,35789,Dedicado (SLA 99.99%)
+CLI-0218,Sistemas Soluciones S.L.,Empresa,Retail,Bamboo DB,2023-03-12,8263,Dedicado (SLA 99.99%)
+CLI-0219,Ayuntamiento de Sevilla,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2022-04-16,13634,Dedicado (SLA 99.99%)
+CLI-0220,Ayuntamiento de Málaga,Organización Gubernamental,Administración Pública,Bamboo DB,2022-11-12,27629,Dedicado (SLA 99.99%)
+CLI-0221,Data Global S.L.,Empresa,Finanzas,Bamboo DB,2022-10-29,7194,Dedicado (SLA 99.99%)
+CLI-0222,David Pérez Romero,Particular,N/A,EcoNode + Bamboo DB,2022-06-25,261,Básico
+CLI-0223,Data Tech S.L.,Empresa,Salud,EcoNode Serverless,2022-12-02,6184,Dedicado (SLA 99.99%)
+CLI-0224,Instituto Nacional de Murcia,Organización Gubernamental,Administración Pública,Bamboo DB,2023-07-25,19491,Dedicado (SLA 99.99%)
+CLI-0225,Cloud Tech S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2024-04-16,4800,Prioritario
+CLI-0226,Sistemas Data S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2023-11-30,9079,Dedicado (SLA 99.99%)
+CLI-0227,Cloud Verde S.L.,Empresa,Finanzas,EcoNode Serverless,2023-06-04,11328,Dedicado (SLA 99.99%)
+CLI-0228,Tech Global S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-07-24,2619,Prioritario
+CLI-0229,Cloud Soluciones S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2023-09-01,14820,Dedicado (SLA 99.99%)
+CLI-0230,Universidad de Córdoba,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2024-01-07,3866,Prioritario
+CLI-0231,Global Verde S.L.,Empresa,Retail,EcoNode Serverless,2024-03-20,4487,Prioritario
+CLI-0232,Global Soluciones S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2024-02-29,9412,Dedicado (SLA 99.99%)
+CLI-0233,Data Data S.L.,Empresa,Educación,EcoNode Serverless,2023-12-16,13870,Dedicado (SLA 99.99%)
+CLI-0234,Cloud Tech S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-07-07,12839,Dedicado (SLA 99.99%)
+CLI-0235,Global Tech S.L.,Empresa,Retail,EcoNode + Bamboo DB,2024-01-28,7936,Dedicado (SLA 99.99%)
+CLI-0236,Global Tech S.L.,Empresa,Tecnología,EcoNode Serverless,2024-04-22,14238,Dedicado (SLA 99.99%)
+CLI-0237,Tech Cloud S.L.,Empresa,Retail,Verdant LLM,2023-08-21,6362,Dedicado (SLA 99.99%)
+CLI-0238,Verde Tech S.L.,Empresa,Finanzas,Verdant LLM,2024-01-21,7523,Dedicado (SLA 99.99%)
+CLI-0239,Verde Global S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2022-10-04,6744,Dedicado (SLA 99.99%)
+CLI-0240,Soluciones Tech S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2023-12-21,10739,Dedicado (SLA 99.99%)
+CLI-0241,Cloud Sistemas S.L.,Empresa,Retail,Bamboo DB,2023-11-09,2736,Prioritario
+CLI-0242,Laura López Martín,Particular,N/A,Bamboo DB,2023-06-24,371,Básico
+CLI-0243,Innovación Global S.L.,Empresa,Educación,Bamboo DB,2023-11-19,2736,Prioritario
+CLI-0244,Innovación Global S.L.,Empresa,Educación,Verdant LLM,2024-01-26,14692,Dedicado (SLA 99.99%)
+CLI-0245,Carlos Sánchez Casanova,Particular,N/A,Verdant LLM,2023-03-22,425,Básico
+CLI-0246,Global Global S.L.,Empresa,Educación,EcoNode Serverless,2022-05-23,5500,Dedicado (SLA 99.99%)
+CLI-0247,Cloud Innovación S.L.,Empresa,Educación,EcoNode Serverless,2023-03-25,9179,Dedicado (SLA 99.99%)
+CLI-0248,Tech Innovación S.L.,Empresa,Retail,Verdant LLM,2022-08-20,10174,Dedicado (SLA 99.99%)
+CLI-0249,Universidad de Alicante,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2023-10-17,46537,Dedicado (SLA 99.99%)
+CLI-0250,Instituto Nacional de Bilbao,Organización Gubernamental,Administración Pública,Verdant LLM,2022-12-26,28530,Dedicado (SLA 99.99%)
+CLI-0251,Cloud Global S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2023-06-14,11369,Dedicado (SLA 99.99%)
+CLI-0252,Global Global S.L.,Empresa,Educación,EcoNode Serverless,2022-06-27,12556,Dedicado (SLA 99.99%)
+CLI-0253,Soluciones Cloud S.L.,Empresa,Retail,EcoNode Serverless,2024-04-05,9446,Dedicado (SLA 99.99%)
+CLI-0254,Tech Cloud S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2023-12-08,14655,Dedicado (SLA 99.99%)
+CLI-0255,Innovación Tech S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2023-04-26,4647,Prioritario
+CLI-0256,Global Global S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2024-03-17,6725,Dedicado (SLA 99.99%)
+CLI-0257,Tech Verde S.L.,Empresa,Educación,Bamboo DB,2023-08-31,10041,Dedicado (SLA 99.99%)
+CLI-0258,Global Soluciones S.L.,Empresa,Finanzas,EcoNode Serverless,2022-04-23,4708,Prioritario
+CLI-0259,Sistemas Tech S.L.,Empresa,Educación,EcoNode Serverless,2022-09-23,6760,Dedicado (SLA 99.99%)
+CLI-0260,Global Sistemas S.L.,Empresa,Salud,EcoNode + Bamboo DB,2023-07-16,1017,Prioritario
+CLI-0261,Agencia Estatal de Barcelona,Organización Gubernamental,Administración Pública,Bamboo DB,2023-12-07,13121,Dedicado (SLA 99.99%)
+CLI-0262,Tariq Álvarez Gutiérrez,Particular,N/A,Verdant LLM,2023-05-02,417,Básico
+CLI-0263,Sistemas Innovación S.L.,Empresa,Salud,Bamboo DB,2023-07-03,10367,Dedicado (SLA 99.99%)
+CLI-0264,Universidad de Zaragoza,Organización Gubernamental,Administración Pública,EcoNode Serverless,2022-08-11,15113,Dedicado (SLA 99.99%)
+CLI-0265,Ministerio de Murcia,Organización Gubernamental,Administración Pública,Bamboo DB,2023-10-14,27489,Dedicado (SLA 99.99%)
+CLI-0266,Instituto Nacional de Alicante,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-10-31,2136,Prioritario
+CLI-0267,Instituto Nacional de Madrid,Organización Gubernamental,Administración Pública,Verdant LLM,2023-11-10,29639,Dedicado (SLA 99.99%)
+CLI-0268,Instituto Nacional de Córdoba,Organización Gubernamental,Administración Pública,EcoNode + Bamboo DB,2023-05-03,16092,Dedicado (SLA 99.99%)
+CLI-0269,Sistemas Verde S.L.,Empresa,Tecnología,Bamboo DB,2023-06-01,10548,Dedicado (SLA 99.99%)
+CLI-0270,Juan Alonso Alonso,Particular,N/A,EcoNode Serverless,2023-10-09,62,Básico
+CLI-0271,Ayuntamiento de Murcia,Organización Gubernamental,Administración Pública,Verdant LLM,2023-12-05,24273,Dedicado (SLA 99.99%)
+CLI-0272,Verde Sistemas S.L.,Empresa,Educación,EcoNode Serverless,2023-11-28,14182,Dedicado (SLA 99.99%)
+CLI-0273,Data Soluciones S.L.,Empresa,Salud,EcoNode Serverless,2023-07-21,4178,Prioritario
+CLI-0274,Global Sistemas S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2023-02-25,9639,Dedicado (SLA 99.99%)
+CLI-0275,Isabel Ruiz Martín,Particular,N/A,EcoNode Serverless,2022-09-25,88,Básico
+CLI-0276,Verde Verde S.L.,Empresa,Tecnología,Bamboo DB,2023-06-16,8274,Dedicado (SLA 99.99%)
+CLI-0277,Innovación Global S.L.,Empresa,Tecnología,EcoNode Serverless,2023-10-11,5390,Dedicado (SLA 99.99%)
+CLI-0278,Data Global S.L.,Empresa,Tecnología,EcoNode Serverless,2023-08-16,1128,Prioritario
+CLI-0279,Ministerio de Sevilla,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2023-05-24,14074,Dedicado (SLA 99.99%)
+CLI-0280,Ministerio de Valencia,Organización Gubernamental,Administración Pública,Verdant LLM,2023-01-24,49245,Dedicado (SLA 99.99%)
+CLI-0281,Innovación Verde S.L.,Empresa,Tecnología,Verdant LLM,2022-12-30,939,Básico
+CLI-0282,Tech Data S.L.,Empresa,Tecnología,EcoNode Serverless,2022-10-16,4679,Prioritario
+CLI-0283,Ayuntamiento de Málaga,Organización Gubernamental,Administración Pública,Verdant LLM,2023-02-05,28689,Dedicado (SLA 99.99%)
+CLI-0284,Data Soluciones S.L.,Empresa,Educación,Bamboo DB,2023-06-04,5309,Dedicado (SLA 99.99%)
+CLI-0285,Jorge Romero Díaz,Particular,N/A,EcoNode Serverless,2024-03-09,465,Básico
+CLI-0286,Ayuntamiento de Murcia,Organización Gubernamental,Administración Pública,Verdant LLM + Bamboo DB,2022-11-28,44082,Dedicado (SLA 99.99%)
+CLI-0287,Data Global S.L.,Empresa,Finanzas,Verdant LLM,2023-02-07,9165,Dedicado (SLA 99.99%)
+CLI-0288,Instituto Nacional de Córdoba,Organización Gubernamental,Administración Pública,EcoNode Serverless,2022-12-11,36742,Dedicado (SLA 99.99%)
+CLI-0289,Innovación Sistemas S.L.,Empresa,Retail,EcoNode + Bamboo DB,2023-10-01,5325,Dedicado (SLA 99.99%)
+CLI-0290,Global Verde S.L.,Empresa,Finanzas,EcoNode Serverless,2023-06-07,14412,Dedicado (SLA 99.99%)
+CLI-0291,Cloud Verde S.L.,Empresa,Retail,EcoNode Serverless,2023-03-14,12166,Dedicado (SLA 99.99%)
+CLI-0292,Verde Sistemas S.L.,Empresa,Retail,EcoNode + Bamboo DB,2022-09-19,2703,Prioritario
+CLI-0293,Cloud Verde S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2022-10-11,7286,Dedicado (SLA 99.99%)
+CLI-0294,Soluciones Cloud S.L.,Empresa,Salud,EcoNode + Bamboo DB,2022-09-04,4207,Prioritario
+CLI-0295,Global Global S.L.,Empresa,Finanzas,Bamboo DB,2024-03-22,1065,Prioritario
+CLI-0296,Sistemas Soluciones S.L.,Empresa,Tecnología,Bamboo DB,2023-08-22,10873,Dedicado (SLA 99.99%)
+CLI-0297,Agencia Estatal de Bilbao,Organización Gubernamental,Administración Pública,Bamboo DB,2022-12-29,48096,Dedicado (SLA 99.99%)
+CLI-0298,Innovación Sistemas S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2023-09-17,10998,Dedicado (SLA 99.99%)
+CLI-0299,Soluciones Soluciones S.L.,Empresa,Finanzas,Bamboo DB,2022-11-18,7553,Dedicado (SLA 99.99%)
+CLI-0300,Ayuntamiento de Barcelona,Organización Gubernamental,Administración Pública,EcoNode Serverless,2022-08-31,27258,Dedicado (SLA 99.99%)
+CLI-0301,Sistemas Sistemas S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2022-10-19,4282,Prioritario
+CLI-0302,Verde Data S.L.,Empresa,Retail,Bamboo DB,2023-12-25,12277,Dedicado (SLA 99.99%)
+CLI-0303,Sistemas Global S.L.,Empresa,Finanzas,Bamboo DB,2023-03-05,5031,Dedicado (SLA 99.99%)
+CLI-0304,Soluciones Data S.L.,Empresa,Tecnología,EcoNode + Bamboo DB,2023-01-28,8828,Dedicado (SLA 99.99%)
+CLI-0305,Innovación Global S.L.,Empresa,Educación,Verdant LLM,2022-09-24,3354,Prioritario
+CLI-0306,Universidad de Bilbao,Organización Gubernamental,Administración Pública,Verdant LLM,2022-06-17,12695,Dedicado (SLA 99.99%)
+CLI-0307,Paula Ruiz Martínez,Particular,N/A,EcoNode Serverless,2022-08-17,419,Básico
+CLI-0308,Sistemas Cloud S.L.,Empresa,Tecnología,Bamboo DB,2024-03-17,7892,Dedicado (SLA 99.99%)
+CLI-0309,Innovación Verde S.L.,Empresa,Retail,Verdant LLM + Bamboo DB,2024-01-14,8914,Dedicado (SLA 99.99%)
+CLI-0310,Innovación Innovación S.L.,Empresa,Educación,Verdant LLM,2023-07-09,10237,Dedicado (SLA 99.99%)
+CLI-0311,Tech Innovación S.L.,Empresa,Salud,Verdant LLM + Bamboo DB,2023-12-25,4058,Prioritario
+CLI-0312,Verde Sistemas S.L.,Empresa,Retail,Verdant LLM,2023-11-08,1518,Prioritario
+CLI-0313,Cloud Global S.L.,Empresa,Finanzas,Bamboo DB,2023-09-08,4333,Prioritario
+CLI-0314,Data Sistemas S.L.,Empresa,Salud,EcoNode + Bamboo DB,2023-07-24,8875,Dedicado (SLA 99.99%)
+CLI-0315,Verde Verde S.L.,Empresa,Educación,EcoNode + Bamboo DB,2024-04-21,3901,Prioritario
+CLI-0316,Ministerio de Murcia,Organización Gubernamental,Administración Pública,EcoNode Serverless,2022-10-09,18873,Dedicado (SLA 99.99%)
+CLI-0317,Innovación Soluciones S.L.,Empresa,Tecnología,Verdant LLM,2022-06-12,6798,Dedicado (SLA 99.99%)
+CLI-0318,María Gómez López,Particular,N/A,Verdant LLM,2024-02-25,262,Básico
+CLI-0319,Data Tech S.L.,Empresa,Finanzas,Verdant LLM,2023-07-18,8426,Dedicado (SLA 99.99%)
+CLI-0320,Global Sistemas S.L.,Empresa,Salud,EcoNode Serverless,2022-09-08,4550,Prioritario
+CLI-0321,Soluciones Sistemas S.L.,Empresa,Retail,EcoNode + Bamboo DB,2023-11-13,4531,Prioritario
+CLI-0322,Soluciones Global S.L.,Empresa,Educación,Verdant LLM + Bamboo DB,2023-12-28,2689,Prioritario
+CLI-0323,Cloud Soluciones S.L.,Empresa,Educación,EcoNode Serverless,2024-01-25,3152,Prioritario
+CLI-0324,Tech Tech S.L.,Empresa,Finanzas,Verdant LLM + Bamboo DB,2024-01-20,805,Básico
+CLI-0325,Verde Tech S.L.,Empresa,Finanzas,Verdant LLM,2022-09-04,2105,Prioritario
+CLI-0326,Universidad de Bilbao,Organización Gubernamental,Administración Pública,EcoNode Serverless,2022-06-08,20572,Dedicado (SLA 99.99%)
+CLI-0327,Soluciones Cloud S.L.,Empresa,Tecnología,Bamboo DB,2022-09-30,1566,Prioritario
+CLI-0328,Data Cloud S.L.,Empresa,Retail,Bamboo DB,2023-07-12,6721,Dedicado (SLA 99.99%)
+CLI-0329,Data Cloud S.L.,Empresa,Tecnología,EcoNode Serverless,2023-01-16,1146,Prioritario
+CLI-0330,Sistemas Cloud S.L.,Empresa,Educación,EcoNode + Bamboo DB,2023-01-18,8602,Dedicado (SLA 99.99%)
+CLI-0331,Ayuntamiento de Madrid,Organización Gubernamental,Administración Pública,Bamboo DB,2022-05-26,40569,Dedicado (SLA 99.99%)
+CLI-0332,Sistemas Soluciones S.L.,Empresa,Finanzas,EcoNode Serverless,2023-12-30,9566,Dedicado (SLA 99.99%)
+CLI-0333,Cloud Tech S.L.,Empresa,Retail,EcoNode Serverless,2023-11-06,8916,Dedicado (SLA 99.99%)
+CLI-0334,Data Data S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2023-10-26,8356,Dedicado (SLA 99.99%)
+CLI-0335,Innovación Sistemas S.L.,Empresa,Tecnología,Bamboo DB,2022-11-28,11832,Dedicado (SLA 99.99%)
+CLI-0336,Soluciones Global S.L.,Empresa,Finanzas,Bamboo DB,2023-12-23,7933,Dedicado (SLA 99.99%)
+CLI-0337,Agencia Estatal de Zaragoza,Organización Gubernamental,Administración Pública,Verdant LLM,2022-11-25,9437,Dedicado (SLA 99.99%)
+CLI-0338,Verde Cloud S.L.,Empresa,Tecnología,Bamboo DB,2023-03-27,11246,Dedicado (SLA 99.99%)
+CLI-0339,Innovación Global S.L.,Empresa,Educación,Bamboo DB,2022-09-04,8536,Dedicado (SLA 99.99%)
+CLI-0340,Sistemas Data S.L.,Empresa,Educación,EcoNode Serverless,2022-05-19,8444,Dedicado (SLA 99.99%)
+CLI-0341,Cloud Cloud S.L.,Empresa,Retail,Bamboo DB,2023-07-22,13975,Dedicado (SLA 99.99%)
+CLI-0342,Innovación Verde S.L.,Empresa,Finanzas,EcoNode + Bamboo DB,2022-10-20,11782,Dedicado (SLA 99.99%)
+CLI-0343,Jorge Domínguez Moreno,Particular,N/A,Bamboo DB,2023-10-30,88,Básico
+CLI-0344,Verde Global S.L.,Empresa,Tecnología,Verdant LLM + Bamboo DB,2023-02-22,9362,Dedicado (SLA 99.99%)
+CLI-0345,Global Data S.L.,Empresa,Educación,Bamboo DB,2022-05-31,8119,Dedicado (SLA 99.99%)
+CLI-0346,Universidad de Alicante,Organización Gubernamental,Administración Pública,Bamboo DB,2024-01-30,24003,Dedicado (SLA 99.99%)
+CLI-0347,Ayuntamiento de Sevilla,Organización Gubernamental,Administración Pública,Verdant LLM,2022-12-07,33979,Dedicado (SLA 99.99%)
+CLI-0348,Cloud Innovación S.L.,Empresa,Salud,Bamboo DB,2022-11-22,573,Básico
+CLI-0349,Sistemas Tech S.L.,Empresa,Educación,Verdant LLM,2023-04-10,8657,Dedicado (SLA 99.99%)
+CLI-0350,Alejandro Alonso Moreno,Particular,N/A,Verdant LLM,2023-03-29,77,Básico

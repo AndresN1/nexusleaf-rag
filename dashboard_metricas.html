@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexusLeaf RAG — Dashboard de Rendimiento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --surface: #111827;
+      --card: #1a2235;
+      --border: #1f2d45;
+      --accent: #22d3a0;
+      --accent2: #6366f1;
+      --accent3: #f59e0b;
+      --accent4: #ef4444;
+      --text: #e2e8f0;
+      --muted: #64748b;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #0b0f1a 0%, #111827 50%, #0d1b2a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 320px; height: 320px;
+      background: radial-gradient(circle, rgba(34,211,160,.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+    }
+
+    .logo-icon {
+      width: 42px; height: 42px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem;
+    }
+
+    .logo h1 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #fff, var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo p { font-size: .75rem; color: var(--muted); margin-top: .15rem; }
+
+    .badge {
+      background: rgba(34,211,160,.1);
+      border: 1px solid rgba(34,211,160,.3);
+      color: var(--accent);
+      padding: .4rem 1rem;
+      border-radius: 9999px;
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .05em;
+    }
+
+    /* ── Main Layout ── */
+    main {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem;
+    }
+
+    /* ── Section title ── */
+    .section-title {
+      font-size: .7rem;
+      font-weight: 600;
+      letter-spacing: .12em;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+
+    /* ── KPI Row ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .kpi {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.4rem 1.5rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform .2s;
+    }
+    .kpi:hover { transform: translateY(-2px); }
+
+    .kpi::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: var(--kpi-color, var(--accent));
+    }
+
+    .kpi-label { font-size: .72rem; color: var(--muted); font-weight: 500; }
+    .kpi-value {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--kpi-color, var(--accent));
+      line-height: 1.1;
+      margin: .4rem 0 .2rem;
+    }
+    .kpi-sub { font-size: .72rem; color: var(--muted); }
+
+    /* ── Charts Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .chart-full { grid-column: 1 / -1; }
+
+    .chart-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.6rem;
+    }
+
+    .chart-card h3 {
+      font-size: .85rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 1.2rem;
+    }
+
+    .chart-card h3 span {
+      font-size: .7rem;
+      color: var(--muted);
+      font-weight: 400;
+      margin-left: .5rem;
+    }
+
+    canvas { max-height: 280px; }
+
+    /* ── Evolution table ── */
+    .evolution-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: .8rem;
+      margin-top: 1rem;
+    }
+
+    .evo-col { text-align: center; }
+    .evo-header {
+      font-size: .68rem;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-bottom: .6rem;
+    }
+
+    .evo-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: .6rem;
+      margin-bottom: .5rem;
+    }
+
+    .evo-item .val {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .evo-item .lbl {
+      font-size: .6rem;
+      color: var(--muted);
+      margin-top: .1rem;
+    }
+
+    /* ── Color dots ── */
+    .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: .4rem; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: .72rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">🍃</div>
+    <div>
+      <h1>NexusLeaf Technologies S.L.</h1>
+      <p>RAG Performance Dashboard — Benchmark 716 preguntas</p>
+    </div>
+  </div>
+  <div class="badge">GEMMA 2B · LOCAL LLM</div>
+</header>
+
+<main>
+
+  <!-- KPIs -->
+  <p class="section-title">Métricas Globales — Ejecución Final</p>
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color: #22d3a0">
+      <p class="kpi-label">Precisión Global (est.)</p>
+      <p class="kpi-value">87%</p>
+      <p class="kpi-sub">sobre 716 preguntas</p>
+    </div>
+    <div class="kpi" style="--kpi-color: #6366f1">
+      <p class="kpi-label">Búsquedas por ID</p>
+      <p class="kpi-value">~100%</p>
+      <p class="kpi-sub">EMP · CLI · GST — pre-filtro pandas</p>
+    </div>
+    <div class="kpi" style="--kpi-color: #f59e0b">
+      <p class="kpi-label">Control de Alucinaciones</p>
+      <p class="kpi-value">97%</p>
+      <p class="kpi-sub">60 preguntas sin respuesta en corpus</p>
+    </div>
+    <div class="kpi" style="--kpi-color: #ef4444">
+      <p class="kpi-label">Latencia media</p>
+      <p class="kpi-value">~15s</p>
+      <p class="kpi-sub">Gemma 2B Q4 · GPU inferencia</p>
+    </div>
+  </div>
+
+  <!-- Row 1: accuracy by type + latency -->
+  <div class="charts-grid">
+
+    <div class="chart-card">
+      <h3>Precisión por categoría de pregunta <span>estimado por muestreo</span></h3>
+      <canvas id="chartAccuracy"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h3>Distribución de latencia <span>segundos por pregunta</span></h3>
+      <canvas id="chartLatency"></canvas>
+    </div>
+
+  </div>
+
+  <!-- Row 2: Evolution + sources -->
+  <div class="charts-grid">
+
+    <div class="chart-card">
+      <h3>Evolución del sistema <span>5 ejecuciones de benchmark</span></h3>
+      <canvas id="chartEvolution"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h3>Fuentes más consultadas <span>top archivos por aparición</span></h3>
+      <canvas id="chartSources"></canvas>
+    </div>
+
+  </div>
+
+  <!-- Row 3: retriever comparison full-width -->
+  <div class="charts-grid">
+    <div class="chart-card chart-full">
+      <h3>Comparativa de arquitecturas de retriever <span>precisión estimada por tipo de consulta</span></h3>
+      <canvas id="chartRetriever" style="max-height:240px"></canvas>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  NexusLeaf Technologies S.L. (empresa ficticia) · Dataset sintético para entrenamiento LLM local · Modelo: Gemma 2B Q4_K_M · Stack: LangChain · ChromaDB · BM25 · Pandas
+</footer>
+
+<script>
+const ACCENT  = '#22d3a0';
+const ACCENT2 = '#6366f1';
+const ACCENT3 = '#f59e0b';
+const ACCENT4 = '#ef4444';
+const MUTED   = '#334155';
+const TEXT    = '#94a3b8';
+const GRID    = 'rgba(255,255,255,0.05)';
+
+Chart.defaults.color = TEXT;
+Chart.defaults.borderColor = GRID;
+Chart.defaults.font.family = 'Inter';
+
+// ── 1. Precisión por categoría ──────────────────────────────────────
+new Chart(document.getElementById('chartAccuracy'), {
+  type: 'bar',
+  data: {
+    labels: ['ID exacto\n(EMP/CLI/GST)', 'Corpus\nMarkdown', 'Identidad\nCorporativa', 'Control\nAlucinaciones', 'Timestamp\nEnergético'],
+    datasets: [{
+      label: 'Precisión (%)',
+      data: [100, 85, 80, 97, 55],
+      backgroundColor: [ACCENT, ACCENT2, '#8b5cf6', ACCENT3, ACCENT4],
+      borderRadius: 8,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: {
+        beginAtZero: true, max: 100,
+        grid: { color: GRID },
+        ticks: { callback: v => v + '%' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── 2. Distribución de latencia ─────────────────────────────────────
+new Chart(document.getElementById('chartLatency'), {
+  type: 'bar',
+  data: {
+    labels: ['0-5s', '5-10s', '10-15s', '15-20s', '20-25s', '25-30s', '>30s'],
+    datasets: [{
+      label: 'Nº de preguntas',
+      data: [95, 140, 185, 150, 90, 40, 16],
+      backgroundColor: `rgba(99,102,241,0.7)`,
+      borderColor: ACCENT2,
+      borderWidth: 1,
+      borderRadius: 6,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { grid: { color: GRID }, ticks: { stepSize: 40 } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── 3. Evolución del sistema ────────────────────────────────────────
+new Chart(document.getElementById('chartEvolution'), {
+  type: 'line',
+  data: {
+    labels: ['Ejecución 1\n(Vector puro)', 'Ejecución 2\n(Chunking CSV)', 'Ejecución 3\n(Híbrido RRF)', 'Ejecución 4\n(+ID directo)', 'Ejecución 5\n(+IDENTIDAD.txt)'],
+    datasets: [
+      {
+        label: 'Precisión IDs',
+        data: [10, 10, 15, 100, 100],
+        borderColor: ACCENT,
+        backgroundColor: 'rgba(34,211,160,.1)',
+        tension: .4, fill: true, pointRadius: 5
+      },
+      {
+        label: 'Corpus texto',
+        data: [55, 60, 65, 65, 85],
+        borderColor: ACCENT2,
+        backgroundColor: 'rgba(99,102,241,.08)',
+        tension: .4, fill: true, pointRadius: 5
+      },
+      {
+        label: 'Anti-alucinación',
+        data: [90, 92, 94, 95, 97],
+        borderColor: ACCENT3,
+        backgroundColor: 'rgba(245,158,11,.06)',
+        tension: .4, fill: true, pointRadius: 5
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: { boxWidth: 12, padding: 16, font: { size: 11 } }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true, max: 100,
+        grid: { color: GRID },
+        ticks: { callback: v => v + '%' }
+      },
+      x: { grid: { display: false }, ticks: { font: { size: 10 } } }
+    }
+  }
+});
+
+// ── 4. Fuentes más consultadas ──────────────────────────────────────
+new Chart(document.getElementById('chartSources'), {
+  type: 'doughnut',
+  data: {
+    labels: ['empleados.csv', 'base_clientes.csv', 'registro_gastos.csv', 'IDENTIDAD.txt', 'sla_econode.md', 'Otros'],
+    datasets: [{
+      data: [38, 28, 12, 10, 7, 5],
+      backgroundColor: [ACCENT, ACCENT2, '#8b5cf6', ACCENT3, ACCENT4, MUTED],
+      borderWidth: 2,
+      borderColor: '#1a2235',
+      hoverOffset: 8
+    }]
+  },
+  options: {
+    responsive: true,
+    cutout: '65%',
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: { boxWidth: 10, padding: 12, font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ── 5. Comparativa retriever ────────────────────────────────────────
+new Chart(document.getElementById('chartRetriever'), {
+  type: 'bar',
+  data: {
+    labels: ['ID exacto', 'Corpus texto', 'Anti-alucinación', 'Timestamp energético', 'Media global'],
+    datasets: [
+      {
+        label: 'Solo Vectorial',
+        data: [10, 55, 90, 48, 51],
+        backgroundColor: 'rgba(100,116,139,0.7)',
+        borderRadius: 6, borderSkipped: false,
+      },
+      {
+        label: 'Híbrido BM25+Vector',
+        data: [15, 65, 94, 50, 56],
+        backgroundColor: 'rgba(99,102,241,0.7)',
+        borderRadius: 6, borderSkipped: false,
+      },
+      {
+        label: 'SmartRetriever (ID directo + Híbrido + IDENTIDAD)',
+        data: [100, 85, 97, 55, 87],
+        backgroundColor: 'rgba(34,211,160,0.8)',
+        borderRadius: 6, borderSkipped: false,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: { boxWidth: 12, padding: 14, font: { size: 11 } }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true, max: 100,
+        grid: { color: GRID },
+        ticks: { callback: v => v + '%' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
