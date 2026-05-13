@@ -24,6 +24,7 @@ El objetivo principal es demostrar cómo un modelo pequeño y gratuito puede act
 | Identidad corporativa | ~80% |
 | Control de alucinaciones | ~97% |
 | **Media global** | **~87%** |
+![Dashboard de métricas del benchmark](Benchmark_metrics.png)
 
 ---
 
